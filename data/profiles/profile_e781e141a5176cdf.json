@@ -1,0 +1,40 @@
+{
+  "signature": "e781e141a5176cdf",
+  "first_seen": 1792591221.1074297,
+  "last_seen": 1792591241.0442905,
+  "packet_count": 199,
+  "unique_macs": 1,
+  "mac_history": [
+    {
+      "mac": "CE:43:77:9A:EB:5D",
+      "first_seen": 1792591221.1074297,
+      "last_seen": 1792591241.0442905,
+      "count": 199
+    }
+  ],
+  "stable_snapshot": {
+    "local_name": "TestSensor",
+    "tx_power_dbm": -12,
+    "service_uuids": [
+      "0000180D-0000-1000-8000-00805F9B34FB"
+    ],
+    "manufacturer_data": {
+      "0x004C": "1005"
+    }
+  },
+  "interval_stats": {
+    "count": 198,
+    "mean": 0.10069121616055267,
+    "min": 0.09041953086853027,
+    "max": 0.11066722869873047,
+    "std": 0.006056221364690991
+  },
+  "rssi_stats": {
+    "count": 199,
+    "mean": -61.531608040201,
+    "min": -68.76,
+    "max": -55.0,
+    "std": 2.6115559633837266
+  },
+  "mac_rotation_period_sec": null
+}
