@@ -1,0 +1,53 @@
+{
+  "signature": "7c05002d5abc0eef",
+  "first_seen": 1795520558.298086,
+  "last_seen": 1795520566.6090176,
+  "packet_count": 84,
+  "unique_macs": 1,
+  "mac_history": [
+    {
+      "mac": "C0:FD:9D:BB:DB:AA",
+      "first_seen": 1795520558.298086,
+      "last_seen": 1795520566.6090176,
+      "count": 84
+    }
+  ],
+  "address_types": [
+    "random"
+  ],
+  "stable_snapshot": {
+    "local_name": "TestSensor",
+    "tx_power_dbm": -12,
+    "service_uuids": [
+      "0000180D-0000-1000-8000-00805F9B34FB"
+    ],
+    "manufacturer_data": {
+      "0x004C": "1005"
+    }
+  },
+  "interval_stats": {
+    "count": 83,
+    "mean": 0.1001317070191165,
+    "min": 0.09024477005004883,
+    "max": 0.11033296585083008,
+    "std": 0.005802247578971539
+  },
+  "rssi_stats": {
+    "count": 84,
+    "mean": -61.988571428571426,
+    "min": -67.4,
+    "max": -56.37,
+    "std": 2.319158890456554
+  },
+  "physical_baseline": {
+    "baseline_frozen": true,
+    "baseline_rssi_samples": 64,
+    "baseline_interval_samples": 63,
+    "baseline_pathloss_samples": 64,
+    "duplicates_suppressed": 0,
+    "baseline_rssi_mean": -62.01,
+    "baseline_pathloss_mean": 50.01,
+    "baseline_tx_mean": -12.0
+  },
+  "mac_rotation_period_sec": null
+}

@@ -235,7 +235,6 @@ class PhysicalAnalyzer:
     # Признак 3..Regularity таймингов
     # ------------------------------------------------------------------
     def _detect_timing(self, profile) -> list[dict[str, Any]]:
-        def _detect_timing(self, profile) -> list[dict[str, Any]]:
         if profile.packet_count < MIN_TOTAL:
             return []
         base = profile.baseline["intervals"]

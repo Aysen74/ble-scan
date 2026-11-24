@@ -99,3 +99,14 @@ def scenario_tx_power_spoof(path, n1=80, n2=80):
         dict(base, n=n1, tx=0, source="legit"),
         dict(base, n=n2, tx=12, source="attack_tx_spoof"),
     ])
+
+def scenario_clone_combined(path, n1=80, n2=80):
+    """Клон: и сигнал сильнее, и вещание чаще нормы BLE."""
+    base = dict(name="PhysSensor", mfg_id=0x004C, mfg_hex="a1b2c3",
+                uuid16="0x180D", tx=0, rssi_sigma=2.5)
+    return _run(path, [
+        dict(base, n=n1, interval=0.100, jitter=0.020,
+             rssi_mean=-62.0, source="legit"),
+        dict(base, n=n2, interval=0.012, jitter=0.001,
+             rssi_mean=-44.0, source="attack_clone_combined"),
+    ])

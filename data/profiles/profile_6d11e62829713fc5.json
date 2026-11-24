@@ -1,39 +1,69 @@
 {
   "signature": "6d11e62829713fc5",
-  "first_seen": 1795018108.182795,
-  "last_seen": 1795018163.1019948,
-  "packet_count": 53,
-  "unique_macs": 5,
+  "first_seen": 1795520896.10384,
+  "last_seen": 1795522123.3109813,
+  "packet_count": 197,
+  "unique_macs": 10,
   "mac_history": [
     {
-      "mac": "31:DF:BD:A5:11:D5",
-      "first_seen": 1795018108.182795,
-      "last_seen": 1795018163.1019948,
-      "count": 14
+      "mac": "4A:81:64:40:0A:50",
+      "first_seen": 1795520896.10384,
+      "last_seen": 1795520956.1078985,
+      "count": 2
     },
     {
-      "mac": "56:CE:EE:F3:20:42",
-      "first_seen": 1795018109.1297927,
-      "last_seen": 1795018163.0959938,
-      "count": 18
+      "mac": "78:26:6A:52:57:05",
+      "first_seen": 1795520896.1118093,
+      "last_seen": 1795520896.1118093,
+      "count": 1
     },
     {
       "mac": "E3:39:F5:19:AF:5D",
-      "first_seen": 1795018110.5327945,
-      "last_seen": 1795018160.7348921,
-      "count": 10
+      "first_seen": 1795520896.1138518,
+      "last_seen": 1795522112.929052,
+      "count": 13
     },
     {
-      "mac": "0C:93:B3:EC:5B:18",
-      "first_seen": 1795018111.7130184,
-      "last_seen": 1795018143.2669845,
-      "count": 8
+      "mac": "63:33:F5:B7:F6:AB",
+      "first_seen": 1795520896.686613,
+      "last_seen": 1795520896.686613,
+      "count": 1
     },
     {
-      "mac": "2D:55:0B:0E:73:30",
-      "first_seen": 1795018147.2688112,
-      "last_seen": 1795018160.9798117,
-      "count": 3
+      "mac": "7C:40:03:B5:59:46",
+      "first_seen": 1795521685.0401516,
+      "last_seen": 1795521745.0261328,
+      "count": 2
+    },
+    {
+      "mac": "59:3C:8A:E7:D5:37",
+      "first_seen": 1795521685.252464,
+      "last_seen": 1795522075.2469954,
+      "count": 86
+    },
+    {
+      "mac": "69:71:F2:57:44:35",
+      "first_seen": 1795521712.3121753,
+      "last_seen": 1795522070.3939612,
+      "count": 22
+    },
+    {
+      "mac": "6E:53:C7:C8:0F:4A",
+      "first_seen": 1795521716.2097127,
+      "last_seen": 1795521716.2097127,
+      "count": 1
+    },
+    {
+      "mac": "68:7E:D6:E9:0D:BE",
+      "first_seen": 1795522079.0190191,
+      "last_seen": 1795522123.3109813,
+      "count": 23
+    },
+    {
+      "mac": "54:42:7E:21:AE:1B",
+      "first_seen": 1795522081.965683,
+      "last_seen": 1795522122.3770096,
+      "count": 46
     }
   ],
   "address_types": [
@@ -46,26 +76,26 @@
     "manufacturer_data": {}
   },
   "interval_stats": {
-    "count": 52,
-    "mean": 1.0561384558677673,
-    "min": 0.006000995635986328,
-    "max": 3.0690298080444336,
-    "std": 0.7524384410604613
+    "count": 196,
+    "mean": 6.261260924290638,
+    "min": 0.002042531967163086,
+    "max": 728.9322531223297,
+    "std": 56.68776095837916
   },
   "rssi_stats": {
-    "count": 53,
-    "mean": -89.01886792452831,
-    "min": -94.0,
-    "max": -80.0,
-    "std": 3.9928736804260523
+    "count": 197,
+    "mean": -69.23857868020305,
+    "min": -127.0,
+    "max": -46.0,
+    "std": 8.804644252688366
   },
   "physical_baseline": {
-    "baseline_frozen": false,
-    "baseline_rssi_samples": 53,
-    "baseline_interval_samples": 52,
+    "baseline_frozen": true,
+    "baseline_rssi_samples": 64,
+    "baseline_interval_samples": 63,
     "baseline_pathloss_samples": 0,
-    "duplicates_suppressed": 5,
-    "baseline_rssi_mean": -89.02
+    "duplicates_suppressed": 0,
+    "baseline_rssi_mean": -69.61
   },
-  "mac_rotation_period_sec": 9.771504044532776
+  "mac_rotation_period_sec": 131.7624269856347
 }
