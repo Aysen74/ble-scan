@@ -61,20 +61,28 @@ class NetworkAnalyzer:
     # Детектор 1. Аномально малый интервал вещания (спуфинг / затопление).
     # ------------------------------------------------------------------
     def _detect_interval(self, profile: DeviceProfile) -> list[dict[str, Any]]:
-        if not profile.intervals:
+        if len(profile.intervals) < 20:          # мало данных — не судим
             return []
-        imin = min(profile.intervals)
+
+        values = list(profile.intervals)
         threshold = BLE_ADV_INTERVAL_MIN_SEC - BLE_ADV_INTERVAL_SLACK
-        if imin < threshold:
+        below = sum(1 for v in values if v < threshold)
+        share = below / len(values)
+        imin = min(values)
+
+        # Одиночный провал минимума не является свидетельством:
+        # дубликаты HCI-событий и джиттер дают единичные выбросы.
+        # Требуем устойчивую долю интервалов ниже нормы BLE.
+        if share >= 0.30:
             return [{
                 "type": "advertising_interval_too_small",
                 "value": round(imin, 4),
                 "weight": self.weights["advertising_interval_too_small"],
                 "level": "warning",
                 "description": (
-                    f"Скользящий минимум интервала {imin*1000:.1f} мс ниже "
-                    f"минимума BLE ({BLE_ADV_INTERVAL_MIN_SEC*1000:.0f} мс): "
-                    f"признак спуфинга или затопления."
+                    f"{share*100:.0f}% интервалов ниже минимума BLE "
+                    f"({BLE_ADV_INTERVAL_MIN_SEC*1000:.0f} мс), "
+                    f"минимум {imin*1000:.1f} мс: признак спуфинга/затопления."
                 ),
             }]
         return []

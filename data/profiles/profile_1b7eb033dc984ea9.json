@@ -1,0 +1,57 @@
+{
+  "signature": "1b7eb033dc984ea9",
+  "first_seen": 1795018107.3460767,
+  "last_seen": 1795018156.1370144,
+  "packet_count": 15,
+  "unique_macs": 2,
+  "mac_history": [
+    {
+      "mac": "4E:F9:4C:98:BA:AA",
+      "first_seen": 1795018107.3460767,
+      "last_seen": 1795018131.8068128,
+      "count": 6
+    },
+    {
+      "mac": "40:75:21:3C:DD:A5",
+      "first_seen": 1795018135.8140645,
+      "last_seen": 1795018156.1370144,
+      "count": 9
+    }
+  ],
+  "address_types": [
+    "unknown"
+  ],
+  "stable_snapshot": {
+    "local_name": null,
+    "tx_power_dbm": 12,
+    "service_uuids": [],
+    "manufacturer_data": {
+      "0x004C": "10020300"
+    }
+  },
+  "interval_stats": {
+    "count": 14,
+    "mean": 3.485066975866045,
+    "min": 0.8204042911529541,
+    "max": 16.194725036621094,
+    "std": 3.826525244735548
+  },
+  "rssi_stats": {
+    "count": 15,
+    "mean": -89.6,
+    "min": -92.0,
+    "max": -84.0,
+    "std": 2.2150996967781533
+  },
+  "physical_baseline": {
+    "baseline_frozen": false,
+    "baseline_rssi_samples": 15,
+    "baseline_interval_samples": 14,
+    "baseline_pathloss_samples": 15,
+    "duplicates_suppressed": 2,
+    "baseline_rssi_mean": -89.6,
+    "baseline_pathloss_mean": 101.6,
+    "baseline_tx_mean": 12.0
+  },
+  "mac_rotation_period_sec": 28.467987775802612
+}

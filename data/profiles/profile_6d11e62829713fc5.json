@@ -1,0 +1,71 @@
+{
+  "signature": "6d11e62829713fc5",
+  "first_seen": 1795018108.182795,
+  "last_seen": 1795018163.1019948,
+  "packet_count": 53,
+  "unique_macs": 5,
+  "mac_history": [
+    {
+      "mac": "31:DF:BD:A5:11:D5",
+      "first_seen": 1795018108.182795,
+      "last_seen": 1795018163.1019948,
+      "count": 14
+    },
+    {
+      "mac": "56:CE:EE:F3:20:42",
+      "first_seen": 1795018109.1297927,
+      "last_seen": 1795018163.0959938,
+      "count": 18
+    },
+    {
+      "mac": "E3:39:F5:19:AF:5D",
+      "first_seen": 1795018110.5327945,
+      "last_seen": 1795018160.7348921,
+      "count": 10
+    },
+    {
+      "mac": "0C:93:B3:EC:5B:18",
+      "first_seen": 1795018111.7130184,
+      "last_seen": 1795018143.2669845,
+      "count": 8
+    },
+    {
+      "mac": "2D:55:0B:0E:73:30",
+      "first_seen": 1795018147.2688112,
+      "last_seen": 1795018160.9798117,
+      "count": 3
+    }
+  ],
+  "address_types": [
+    "unknown"
+  ],
+  "stable_snapshot": {
+    "local_name": null,
+    "tx_power_dbm": null,
+    "service_uuids": [],
+    "manufacturer_data": {}
+  },
+  "interval_stats": {
+    "count": 52,
+    "mean": 1.0561384558677673,
+    "min": 0.006000995635986328,
+    "max": 3.0690298080444336,
+    "std": 0.7524384410604613
+  },
+  "rssi_stats": {
+    "count": 53,
+    "mean": -89.01886792452831,
+    "min": -94.0,
+    "max": -80.0,
+    "std": 3.9928736804260523
+  },
+  "physical_baseline": {
+    "baseline_frozen": false,
+    "baseline_rssi_samples": 53,
+    "baseline_interval_samples": 52,
+    "baseline_pathloss_samples": 0,
+    "duplicates_suppressed": 5,
+    "baseline_rssi_mean": -89.02
+  },
+  "mac_rotation_period_sec": 9.771504044532776
+}
