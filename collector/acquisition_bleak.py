@@ -136,4 +136,4 @@ async def run_real_capture(output_path: str, duration_sec: int = 60) -> int:
 
 
 if __name__ == "__main__":
-    asyncio.run(run_real_capture("data/raw/real_capture.jsonl", duration_sec=60))
+    asyncio.run(run_real_capture("data/raw/real_capture.jsonl", duration_sec=180))
