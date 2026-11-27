@@ -1,15 +1,15 @@
 {
   "signature": "879cdb9a75d1ee4e",
-  "first_seen": 1795797616.3515446,
-  "last_seen": 1795797635.7615714,
-  "packet_count": 12,
+  "first_seen": 1795800149.9110303,
+  "last_seen": 1795800229.8706002,
+  "packet_count": 13,
   "unique_macs": 1,
   "mac_history": [
     {
-      "mac": "68:7A:76:3C:E2:3B",
-      "first_seen": 1795797616.3515446,
-      "last_seen": 1795797635.7615714,
-      "count": 12
+      "mac": "65:EF:B4:54:5C:ED",
+      "first_seen": 1795800149.9110303,
+      "last_seen": 1795800229.8706002,
+      "count": 13
     }
   ],
   "address_types": [
@@ -20,26 +20,26 @@
     "manufacturer_data": {}
   },
   "interval_stats": {
-    "count": 11,
-    "mean": 1.764547889882868,
-    "min": 0.01001882553100586,
-    "max": 6.841020107269287,
-    "std": 2.018939675224017
+    "count": 12,
+    "mean": 6.6632974942525225,
+    "min": 0.9532856941223145,
+    "max": 20.33070206642151,
+    "std": 5.111149233666874
   },
   "rssi_stats": {
-    "count": 12,
-    "mean": -81.33333333333333,
-    "min": -90.0,
-    "max": -74.0,
-    "std": 4.422166387140533
+    "count": 13,
+    "mean": -82.61538461538461,
+    "min": -88.0,
+    "max": -78.0,
+    "std": 3.4538375877913303
   },
   "physical_baseline": {
     "baseline_frozen": false,
-    "baseline_rssi_samples": 12,
-    "baseline_interval_samples": 11,
+    "baseline_rssi_samples": 13,
+    "baseline_interval_samples": 12,
     "baseline_pathloss_samples": 0,
-    "duplicates_suppressed": 2,
-    "baseline_rssi_mean": -81.33
+    "duplicates_suppressed": 3,
+    "baseline_rssi_mean": -82.62
   },
   "mac_rotation_period_sec": null
 }

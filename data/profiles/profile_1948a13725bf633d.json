@@ -1,14 +1,14 @@
 {
-  "signature": "d6ef33942d8e491e",
-  "first_seen": 1795797616.6985407,
-  "last_seen": 1795797616.6985407,
+  "signature": "1948a13725bf633d",
+  "first_seen": 1795800229.6263373,
+  "last_seen": 1795800229.6263373,
   "packet_count": 1,
   "unique_macs": 1,
   "mac_history": [
     {
-      "mac": "5D:C6:F9:1E:F5:C7",
-      "first_seen": 1795797616.6985407,
-      "last_seen": 1795797616.6985407,
+      "mac": "76:41:DE:ED:B4:44",
+      "first_seen": 1795800229.6263373,
+      "last_seen": 1795800229.6263373,
       "count": 1
     }
   ],
@@ -18,15 +18,15 @@
   "stable_snapshot": {
     "local_name": null,
     "manufacturer_data": {
-      "0x4c": "160800ab8aa6c2c81346"
+      "0x4c": "1005231cdcf4f6"
     }
   },
   "interval_stats": {},
   "rssi_stats": {
     "count": 1,
-    "mean": -88.0,
-    "min": -88.0,
-    "max": -88.0,
+    "mean": -90.0,
+    "min": -90.0,
+    "max": -90.0,
     "std": 0.0
   },
   "physical_baseline": {
@@ -35,7 +35,7 @@
     "baseline_interval_samples": 0,
     "baseline_pathloss_samples": 0,
     "duplicates_suppressed": 0,
-    "baseline_rssi_mean": -88.0
+    "baseline_rssi_mean": -90.0
   },
   "mac_rotation_period_sec": null
 }

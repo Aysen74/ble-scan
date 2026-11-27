@@ -16,13 +16,19 @@ from tkinter import ttk
 
 import customtkinter as ctk
 
-# Добавляем корень проекта в sys.path
+# Добавляем корень проекта в sys.path. ВАЖНО: вставляем в НАЧАЛО списка,
+# причём безусловно (даже если путь уже где-то есть). Иначе при запуске вида
+# `uv run --python 3.12 python gui/app.py` другие пути оказываются раньше,
+# и локальные пакеты parser/profiles/engine/storage не находятся
+# (ModuleNotFoundError: No module named 'parser').
 import sys
 ROOT = Path(__file__).resolve().parent.parent
-if str(ROOT) not in sys.path:
-    sys.path.insert(0, str(ROOT))
+_root_str = str(ROOT)
+if _root_str in sys.path:
+    sys.path.remove(_root_str)
+sys.path.insert(0, _root_str)
 
-from profiles.device_profile import DeviceProfiler
+from profiles.device_profile import DeviceProfiler, merge_profiles_by_mac
 from engine.pipeline import evaluate
 from engine.settings import load_config
 from storage.alert_manager import AlertManager
@@ -292,8 +298,16 @@ class BLEMonitorApp(ctk.CTk):
         self.btn_stop.configure(state="disabled")
         self.lbl_status.configure(text="Статус: остановлен")
 
+        # Финальное слияние: догоняем пакеты, накопленные после
+        # последнего периодического слияния в collector-потоке.
+        def _final_merge():
+            merge_profiles_by_mac(self.profiler)
+            self._update_device_list()
+
+        threading.Timer(2.0, _final_merge).start()
+
     def _collect_loop(self):
-    
+
         import asyncio
         from bleak import BleakScanner
 
@@ -303,6 +317,8 @@ class BLEMonitorApp(ctk.CTk):
     # Очищаем файл перед новым сбором
         if output_path.exists():
             output_path.unlink()
+
+        self._pkts_since_merge = 0
 
         def collector_callback(device, adv):
             if not self.is_collecting:
@@ -320,13 +336,23 @@ class BLEMonitorApp(ctk.CTk):
             }
             with open(output_path, "a", encoding="utf-8") as f:
                 f.write(json.dumps(record, ensure_ascii=False) + "\n")
-            
-            # Обрабатываем запись и сразу объединяем профили
-            self.profiler.process_record(record)
-            merge_profiles_by_mac(self.profiler)
-            
+
+            # Обрабатываем запись. Слияние профилей по MAC выполняется не на
+            # каждом пакете (это лишняя нагрузка и гонка с потоком GUI), а
+            # периодически — каждые 25 пакетов, плюс финальное слияние после
+            # остановки сканера (см. _stop_collection).
+            try:
+                self.profiler.process_record(record)
+            except ValueError:
+                return
+            self._pkts_since_merge += 1
+            if self._pkts_since_merge >= 25:
+                self._pkts_since_merge = 0
+                merge_profiles_by_mac(self.profiler)
+
             # Обновляем GUI каждые 10 пакетов
-            if self.profiler.profiles and sum(p.packet_count for p in self.profiler.profiles.values()) % 10 == 0:
+            total = sum(p.packet_count for p in self.profiler.profiles.values())
+            if total and total % 10 == 0:
                 self.after(0, self._update_device_list)
 
         async def scan():

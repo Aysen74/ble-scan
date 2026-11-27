@@ -1,39 +1,39 @@
 {
   "signature": "6d11e62829713fc5",
-  "first_seen": 1795797622.7397678,
-  "last_seen": 1795797652.1516101,
-  "packet_count": 12,
+  "first_seen": 1795800152.856911,
+  "last_seen": 1795800228.9093585,
+  "packet_count": 32,
   "unique_macs": 5,
   "mac_history": [
     {
-      "mac": "1E:95:3A:68:87:A2",
-      "first_seen": 1795797622.7397678,
-      "last_seen": 1795797646.236611,
-      "count": 3
-    },
-    {
-      "mac": "E3:39:F5:19:AF:5D",
-      "first_seen": 1795797633.3525262,
-      "last_seen": 1795797643.409604,
-      "count": 5
-    },
-    {
-      "mac": "63:94:8B:61:B5:7E",
-      "first_seen": 1795797634.774595,
-      "last_seen": 1795797634.774595,
-      "count": 1
+      "mac": "C3:64:34:C7:6A:90",
+      "first_seen": 1795800152.856911,
+      "last_seen": 1795800224.2001374,
+      "count": 6
     },
     {
       "mac": "FE:15:3F:5C:28:2C",
-      "first_seen": 1795797646.120079,
-      "last_seen": 1795797652.1516101,
-      "count": 2
+      "first_seen": 1795800156.2822912,
+      "last_seen": 1795800228.9093585,
+      "count": 8
     },
     {
-      "mac": "01:DF:E8:30:27:A6",
-      "first_seen": 1795797652.1456192,
-      "last_seen": 1795797652.1456192,
-      "count": 1
+      "mac": "34:8B:3C:3F:63:9F",
+      "first_seen": 1795800160.5238848,
+      "last_seen": 1795800227.9685192,
+      "count": 3
+    },
+    {
+      "mac": "04:EF:44:FC:A3:F6",
+      "first_seen": 1795800162.2941778,
+      "last_seen": 1795800227.5032108,
+      "count": 5
+    },
+    {
+      "mac": "E3:39:F5:19:AF:5D",
+      "first_seen": 1795800173.7486734,
+      "last_seen": 1795800201.8797581,
+      "count": 10
     }
   ],
   "address_types": [
@@ -44,26 +44,26 @@
     "manufacturer_data": {}
   },
   "interval_stats": {
-    "count": 11,
-    "mean": 2.673803849653764,
-    "min": 0.0059909820556640625,
-    "max": 10.61275839805603,
-    "std": 3.028748891347859
+    "count": 31,
+    "mean": 2.4533047599177205,
+    "min": 0.1260833740234375,
+    "max": 6.4835896492004395,
+    "std": 1.7007883937987582
   },
   "rssi_stats": {
-    "count": 12,
-    "mean": -87.5,
-    "min": -96.0,
-    "max": -78.0,
-    "std": 6.171169527191206
+    "count": 32,
+    "mean": -91.59375,
+    "min": -127.0,
+    "max": -82.0,
+    "std": 7.865507671949726
   },
   "physical_baseline": {
     "baseline_frozen": false,
-    "baseline_rssi_samples": 12,
-    "baseline_interval_samples": 11,
+    "baseline_rssi_samples": 32,
+    "baseline_interval_samples": 31,
     "baseline_pathloss_samples": 0,
-    "duplicates_suppressed": 0,
-    "baseline_rssi_mean": -87.5
+    "duplicates_suppressed": 1,
+    "baseline_rssi_mean": -91.59
   },
-  "mac_rotation_period_sec": 7.3514628410339355
+  "mac_rotation_period_sec": 5.222940623760223
 }

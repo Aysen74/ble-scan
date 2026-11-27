@@ -1,14 +1,14 @@
 {
   "signature": "8094e97cf6d09c3a",
-  "first_seen": 1795797650.3649962,
-  "last_seen": 1795797650.3649962,
+  "first_seen": 1795800191.7072222,
+  "last_seen": 1795800191.7072222,
   "packet_count": 1,
   "unique_macs": 1,
   "mac_history": [
     {
       "mac": "4C:C9:5E:97:07:4D",
-      "first_seen": 1795797650.3649962,
-      "last_seen": 1795797650.3649962,
+      "first_seen": 1795800191.7072222,
+      "last_seen": 1795800191.7072222,
       "count": 1
     }
   ],

@@ -1,0 +1,47 @@
+{
+  "signature": "49c07b705f511800",
+  "first_seen": 1795800150.9521916,
+  "last_seen": 1795800221.9500303,
+  "packet_count": 18,
+  "unique_macs": 1,
+  "mac_history": [
+    {
+      "mac": "7C:0A:3F:83:E3:7F",
+      "first_seen": 1795800150.9521916,
+      "last_seen": 1795800221.9500303,
+      "count": 31
+    }
+  ],
+  "address_types": [
+    "unknown"
+  ],
+  "stable_snapshot": {
+    "local_name": "[TV] Samsung AU7570 50 TV",
+    "manufacturer_data": {
+      "0x75": "4204012067210d000201320101000100000000000000001a"
+    }
+  },
+  "interval_stats": {
+    "count": 15,
+    "mean": 7.92266583442688,
+    "min": 1.5266218185424805,
+    "max": 22.68363642692566,
+    "std": 5.646653916554178
+  },
+  "rssi_stats": {
+    "count": 18,
+    "mean": -87.11111111111111,
+    "min": -94.0,
+    "max": -80.0,
+    "std": 3.7251232476089355
+  },
+  "physical_baseline": {
+    "baseline_frozen": false,
+    "baseline_rssi_samples": 18,
+    "baseline_interval_samples": 15,
+    "baseline_pathloss_samples": 0,
+    "duplicates_suppressed": 3,
+    "baseline_rssi_mean": -87.11
+  },
+  "mac_rotation_period_sec": null
+}

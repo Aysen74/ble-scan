@@ -1,14 +1,14 @@
 {
-  "signature": "5b4bacdeeacc6d7b",
-  "first_seen": 1795797648.4756095,
-  "last_seen": 1795797649.8946185,
+  "signature": "5a04a9c70b9b4608",
+  "first_seen": 1795800179.6659899,
+  "last_seen": 1795800187.8111598,
   "packet_count": 2,
   "unique_macs": 1,
   "mac_history": [
     {
-      "mac": "C0:39:37:AA:32:00",
-      "first_seen": 1795797648.4756095,
-      "last_seen": 1795797649.8946185,
+      "mac": "6C:8F:07:AE:2D:C0",
+      "first_seen": 1795800179.6659899,
+      "last_seen": 1795800187.8111598,
       "count": 2
     }
   ],
@@ -18,14 +18,14 @@
   "stable_snapshot": {
     "local_name": null,
     "manufacturer_data": {
-      "0xd23": "000001c03937aa3200000000000000"
+      "0x4c": "1007071ba38b3f9468"
     }
   },
   "interval_stats": {
     "count": 1,
-    "mean": 1.4190089702606201,
-    "min": 1.4190089702606201,
-    "max": 1.4190089702606201,
+    "mean": 8.145169973373413,
+    "min": 8.145169973373413,
+    "max": 8.145169973373413,
     "std": 0.0
   },
   "rssi_stats": {

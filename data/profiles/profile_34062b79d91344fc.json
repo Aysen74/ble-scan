@@ -1,0 +1,47 @@
+{
+  "signature": "34062b79d91344fc",
+  "first_seen": 1795800153.322005,
+  "last_seen": 1795800211.9071736,
+  "packet_count": 14,
+  "unique_macs": 1,
+  "mac_history": [
+    {
+      "mac": "C0:39:37:AA:32:00",
+      "first_seen": 1795800153.322005,
+      "last_seen": 1795800211.9071736,
+      "count": 14
+    }
+  ],
+  "address_types": [
+    "unknown"
+  ],
+  "stable_snapshot": {
+    "local_name": "GR-AC_10001_09_3200_SC",
+    "manufacturer_data": {
+      "0xd23": "000001c03937aa3200000000000000"
+    }
+  },
+  "interval_stats": {
+    "count": 12,
+    "mean": 4.881930788358052,
+    "min": 0.6070177555084229,
+    "max": 20.67414903640747,
+    "std": 5.173589993270838
+  },
+  "rssi_stats": {
+    "count": 14,
+    "mean": -93.14285714285714,
+    "min": -96.0,
+    "max": -90.0,
+    "std": 1.6413036132965797
+  },
+  "physical_baseline": {
+    "baseline_frozen": false,
+    "baseline_rssi_samples": 14,
+    "baseline_interval_samples": 12,
+    "baseline_pathloss_samples": 0,
+    "duplicates_suppressed": 4,
+    "baseline_rssi_mean": -93.14
+  },
+  "mac_rotation_period_sec": null
+}

@@ -41,6 +41,14 @@ class DeviceProfile:
         self._mac_index = {}
         self.address_types = set()
 
+        # Приоритет отображаемого имени: 0 — безымянные пакеты,
+        # 1 — имя из AD-структуры Complete Local Name,
+        # 2 — Shortened Local Name. Обновление более приоритетным
+        # снимком гарантирует, что после слияния профилей устройство
+        # покажет своё настоящее имя (например, "[TV] Samsung ..."),
+        # даже если первым пришёл пакет без имени.
+        self._name_rank = 0
+
         # Скользящие окна.
         self.timestamps = deque(maxlen=window)
         self.intervals = deque(maxlen=window)
@@ -85,6 +93,16 @@ class DeviceProfile:
             ensure_ascii=False,
         )
         return hashlib.sha256(payload.encode("utf-8")).hexdigest()[:16]
+
+    @staticmethod
+    def _snapshot_rank(decoded: dict) -> int:
+        """Приоритет снимка как отображаемого (чем больше, тем лучше)."""
+        rank = 0
+        if decoded.get("local_name"):
+            rank += 10
+        rank += len(decoded.get("service_uuids") or [])
+        rank += len(decoded.get("manufacturer_data") or {})
+        return rank
 
     # ------------------------------------------------------------------
     # Накопление
@@ -161,7 +179,16 @@ class DeviceProfile:
             if len(self.baseline["rssi"]) >= self.CALIBRATION_SIZE:
                 self.baseline_frozen = True
 
-        self.stable_snapshot = decoded
+        # Снимок полезной нагрузки: заменяем на более «информативный» —
+        # с приоритетом по наличию и типу имени, иначе по числу AD-полей.
+        new_rank = self._snapshot_rank(decoded)
+        if new_rank > self._name_rank or (
+            new_rank == self._name_rank and not self.stable_snapshot
+        ):
+            self.stable_snapshot = decoded
+            self._name_rank = max(self._name_rank, new_rank)
+        elif not self.stable_snapshot:
+            self.stable_snapshot = decoded
 
     # ------------------------------------------------------------------
     # Статистика
@@ -238,6 +265,130 @@ class DeviceProfile:
             json.dump(self.to_dict(), f, ensure_ascii=False, indent=2)
 
 
+
+def merge_profiles_by_mac(profiler: "DeviceProfiler") -> None:
+    """Объединяет профили, которые видели один и тот же MAC-адрес.
+
+    Профили строятся по сигнатуре полезной нагрузки, поэтому одно и то же
+    устройство (например, Samsung Galaxy) может породить несколько профилей:
+    часть пакетов приходит без имени/флага имени, с другим набором AD или с
+    меняющимся manufacturer data. Все такие профили содержат одинаковый MAC
+    в своей истории, и их нужно слить в один.
+
+    Реализация: union-find (объединение по общим MAC). Два профиля сливаются,
+    если у них есть хотя бы один общий MAC; транзитивно это объединяет целые
+    группы профилей одного устройства. Внутри группы первичным выбирается
+    профиль с наибольшим числом пакетов.
+    """
+    profiles = list(profiler.profiles.values())
+    if len(profiles) < 2:
+        return
+
+    # --- Union-Find -----------------------------------------------------
+    parent = list(range(len(profiles)))
+
+    def find(i: int) -> int:
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+
+    def union(i: int, j: int) -> None:
+        ri, rj = find(i), find(j)
+        if ri != rj:
+            parent[rj] = ri
+
+    # Индекс: MAC -> индекс первого профиля, его видевшего
+    mac_owner: dict[str, int] = {}
+    for idx, profile in enumerate(profiles):
+        for entry in profile.mac_history:
+            mac = str(entry.get("mac", "")).upper()
+            if not mac:
+                continue
+            if mac in mac_owner:
+                union(idx, mac_owner[mac])
+            else:
+                mac_owner[mac] = idx
+
+    # --- Группировка ----------------------------------------------------
+    groups: dict[int, list] = {}
+    for idx, profile in enumerate(profiles):
+        groups.setdefault(find(idx), []).append(profile)
+
+    new_profiles: dict[str, DeviceProfile] = {}
+    for root_idx, group in groups.items():
+        if len(group) == 1:
+            p = group[0]
+            new_profiles[p.signature] = p
+            continue
+
+        # Первичный профиль — самый «наполненный»
+        primary = max(group, key=lambda p: p.packet_count)
+
+        merged_macs: dict[str, dict] = {}
+        for secondary in group:
+            if secondary is primary:
+                continue
+            primary.packet_count += secondary.packet_count
+            primary.duplicate_count += secondary.duplicate_count
+            primary.rssi_values.extend(secondary.rssi_values)
+            primary.intervals.extend(secondary.intervals)
+            primary.pathloss_values.extend(secondary.pathloss_values)
+            primary.tx_power_values.extend(secondary.tx_power_values)
+            primary.timestamps.extend(secondary.timestamps)
+            primary.address_types.update(secondary.address_types)
+
+            if secondary.first_seen is not None:
+                if primary.first_seen is None or secondary.first_seen < primary.first_seen:
+                    primary.first_seen = secondary.first_seen
+            if secondary.last_seen is not None:
+                if primary.last_seen is None or secondary.last_seen > primary.last_seen:
+                    primary.last_seen = secondary.last_seen
+
+            # mac_history: нормальное слияние без дублей записей об одном MAC
+            for e in list(primary.mac_history) + list(secondary.mac_history):
+                mac = str(e["mac"]).upper()
+                prev = merged_macs.get(mac)
+                if prev is None:
+                    merged_macs[mac] = {
+                        "mac": mac,
+                        "first_seen": e["first_seen"],
+                        "last_seen": e["last_seen"],
+                        "count": e.get("count", 0),
+                    }
+                else:
+                    prev["first_seen"] = min(prev["first_seen"], e["first_seen"])
+                    prev["last_seen"] = max(prev["last_seen"], e["last_seen"])
+                    prev["count"] += e.get("count", 0)
+
+            # Эталонные окна: дополняем, пока не заморожены
+            if not primary.baseline_frozen:
+                for k in ("rssi", "tx", "pathloss", "intervals"):
+                    for v in secondary.baseline[k]:
+                        if len(primary.baseline[k]) < primary.CALIBRATION_SIZE:
+                            primary.baseline[k].append(v)
+                if len(primary.baseline["rssi"]) >= primary.CALIBRATION_SIZE:
+                    primary.baseline_frozen = True
+
+            # Снимок: оставляем наиболее информативный (с именем),
+            # иначе вторичный заполняет пустой первичный.
+            sec_rank = DeviceProfile._snapshot_rank(secondary.stable_snapshot or {})
+            pri_rank = DeviceProfile._snapshot_rank(primary.stable_snapshot or {})
+            if not primary.stable_snapshot or sec_rank > pri_rank:
+                primary.stable_snapshot = secondary.stable_snapshot
+                primary._name_rank = max(primary._name_rank, sec_rank)
+
+        # Восстанавливаем историю MAC и индекс без дубликатов
+        primary.mac_history = sorted(
+            merged_macs.values(), key=lambda e: e["first_seen"]
+        )
+        primary._mac_index = {e["mac"]: e for e in primary.mac_history}
+
+        new_profiles[primary.signature] = primary
+
+    profiler.profiles = new_profiles
+
+
 class DeviceProfiler:
     """Менеджер профилей: группирует пакеты по сигнатуре, а не по MAC."""
 
@@ -266,39 +417,9 @@ class DeviceProfiler:
                 line = line.strip()
                 if line:
                     self.process_record(json.loads(line))
-        self.merge_profiles_by_mac()
+        merge_profiles_by_mac(self)
         return list(self.profiles.values())
-    def merge_profiles_by_mac(profiler: DeviceProfiler) -> None:
-        """Объединяет профили с одинаковым MAC-адресом."""
-        # Собираем все MAC-адреса и соответствующие профили
-        mac_to_profiles = {}
-        for sig, profile in list(profiler.profiles.items()):
-            for mac_entry in profile.mac_history:
-                mac = mac_entry["mac"]
-                if mac not in mac_to_profiles:
-                    mac_to_profiles[mac] = []
-                if profile not in mac_to_profiles[mac]:
-                    mac_to_profiles[mac].append(profile)
-        
-        # Для каждого MAC с несколькими профилями — объединить
-        for mac, profiles in mac_to_profiles.items():
-            if len(profiles) > 1:
-                # Оставить первый профиль, добавить данные из остальных
-                primary = profiles[0]
-                for secondary in profiles[1:]:
-                    # Переносим пакеты, RSSI, интервалы
-                    primary.packet_count += secondary.packet_count
-                    primary.rssi_values.extend(secondary.rssi_values)
-                    primary.intervals.extend(secondary.intervals)
-                    primary.mac_history.extend(secondary.mac_history)
-                    primary.address_types.update(secondary.address_types)
-                    primary.duplicate_count += secondary.duplicate_count
-                    # Обновляем stable_snapshot если он пустой
-                    if not primary.stable_snapshot and secondary.stable_snapshot:
-                        primary.stable_snapshot = secondary.stable_snapshot
-                    # Удаляем вторичный профиль
-                    if secondary.signature in profiler.profiles:
-                        del profiler.profiles[secondary.signature]
+
     def save_all(self, out_dir) -> None:
         out_dir = Path(out_dir)
         out_dir.mkdir(parents=True, exist_ok=True)
