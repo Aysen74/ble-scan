@@ -1,0 +1,47 @@
+{
+  "signature": "dc682b46a0b91806",
+  "first_seen": 1795797613.6577926,
+  "last_seen": 1795797654.979496,
+  "packet_count": 55,
+  "unique_macs": 1,
+  "mac_history": [
+    {
+      "mac": "26:84:E8:74:6C:0D",
+      "first_seen": 1795797613.6577926,
+      "last_seen": 1795797654.979496,
+      "count": 55
+    }
+  ],
+  "address_types": [
+    "unknown"
+  ],
+  "stable_snapshot": {
+    "local_name": null,
+    "manufacturer_data": {
+      "0x6": "010920227a32f1c7a869ca016f25a8298f019eece1a1fe4aba618e"
+    }
+  },
+  "interval_stats": {
+    "count": 54,
+    "mean": 0.765216730259083,
+    "min": 0.0855855941772461,
+    "max": 1.8950059413909912,
+    "std": 0.4424485165856165
+  },
+  "rssi_stats": {
+    "count": 55,
+    "mean": -73.49090909090908,
+    "min": -80.0,
+    "max": -68.0,
+    "std": 3.1958650971228844
+  },
+  "physical_baseline": {
+    "baseline_frozen": false,
+    "baseline_rssi_samples": 55,
+    "baseline_interval_samples": 54,
+    "baseline_pathloss_samples": 0,
+    "duplicates_suppressed": 0,
+    "baseline_rssi_mean": -73.49
+  },
+  "mac_rotation_period_sec": null
+}

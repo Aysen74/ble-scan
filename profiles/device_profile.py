@@ -266,8 +266,39 @@ class DeviceProfiler:
                 line = line.strip()
                 if line:
                     self.process_record(json.loads(line))
+        self.merge_profiles_by_mac()
         return list(self.profiles.values())
-
+    def merge_profiles_by_mac(profiler: DeviceProfiler) -> None:
+        """Объединяет профили с одинаковым MAC-адресом."""
+        # Собираем все MAC-адреса и соответствующие профили
+        mac_to_profiles = {}
+        for sig, profile in list(profiler.profiles.items()):
+            for mac_entry in profile.mac_history:
+                mac = mac_entry["mac"]
+                if mac not in mac_to_profiles:
+                    mac_to_profiles[mac] = []
+                if profile not in mac_to_profiles[mac]:
+                    mac_to_profiles[mac].append(profile)
+        
+        # Для каждого MAC с несколькими профилями — объединить
+        for mac, profiles in mac_to_profiles.items():
+            if len(profiles) > 1:
+                # Оставить первый профиль, добавить данные из остальных
+                primary = profiles[0]
+                for secondary in profiles[1:]:
+                    # Переносим пакеты, RSSI, интервалы
+                    primary.packet_count += secondary.packet_count
+                    primary.rssi_values.extend(secondary.rssi_values)
+                    primary.intervals.extend(secondary.intervals)
+                    primary.mac_history.extend(secondary.mac_history)
+                    primary.address_types.update(secondary.address_types)
+                    primary.duplicate_count += secondary.duplicate_count
+                    # Обновляем stable_snapshot если он пустой
+                    if not primary.stable_snapshot and secondary.stable_snapshot:
+                        primary.stable_snapshot = secondary.stable_snapshot
+                    # Удаляем вторичный профиль
+                    if secondary.signature in profiler.profiles:
+                        del profiler.profiles[secondary.signature]
     def save_all(self, out_dir) -> None:
         out_dir = Path(out_dir)
         out_dir.mkdir(parents=True, exist_ok=True)

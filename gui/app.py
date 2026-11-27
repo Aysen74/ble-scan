@@ -1,14 +1,18 @@
 """
 Главное окно приложения BLE Privacy Monitor.
 
-Упрощённая версия без графиков (matplotlib).
-Три вкладки: Мониторинг, Алерты, Анализ файла.
+Улучшения:
+- Отображение MAC-адресов устройств
+- Иконки производителей (Apple 🍎, Samsung 📺, Microsoft 🪟 и т.д.)
+- Кликабельные профили с детальной информацией
+- Объединение профилей по MAC-адресу
 """
 
 import json
 import threading
 import time
 from pathlib import Path
+from tkinter import ttk
 
 import customtkinter as ctk
 
@@ -86,7 +90,7 @@ class BLEMonitorApp(ctk.CTk):
         super().__init__()
 
         self.title("BLE Privacy Monitor")
-        self.geometry("1200x800")
+        self.geometry("1400x900")
         ctk.set_appearance_mode("dark")
         ctk.set_default_color_theme("blue")
 
@@ -133,30 +137,146 @@ class BLEMonitorApp(ctk.CTk):
         )
         self.btn_stop.pack(side="left", padx=5)
 
+        self.btn_refresh = ctk.CTkButton(
+            btn_frame, text="🔄 Обновить", command=self._update_device_list
+        )
+        self.btn_refresh.pack(side="left", padx=5)
+
         self.lbl_status = ctk.CTkLabel(btn_frame, text="Статус: неактивен")
         self.lbl_status.pack(side="right", padx=5)
 
-        # Список устройств (текстовое поле с прокруткой)
-        self.device_list = ctk.CTkTextbox(self.tab_monitor, width=600)
-        self.device_list.pack(side="left", fill="both", expand=True, padx=10, pady=10)
-        self.device_list.insert("1.0", "Нажмите 'Начать сбор' для сканирования эфира...\n")
+        # Разделитель
+        separator = ctk.CTkFrame(self.tab_monitor, height=2)
+        separator.pack(fill="x", padx=10, pady=5)
 
-        # Информация о выбранном устройстве
-        info_frame = ctk.CTkFrame(self.tab_monitor, width=400)
-        info_frame.pack(side="right", fill="y", padx=10, pady=10)
-        info_frame.pack_propagate(False)
+        # Левая панель: список устройств
+        list_frame = ctk.CTkFrame(self.tab_monitor)
+        list_frame.pack(side="left", fill="both", expand=True, padx=10, pady=10)
 
-        ctk.CTkLabel(info_frame, text="Детали устройства", font=ctk.CTkFont(size=16, weight="bold")).pack(pady=10)
-        self.device_info = ctk.CTkTextbox(info_frame)
-        self.device_info.pack(fill="both", expand=True, padx=5, pady=5)
-        self.device_info.insert("1.0", "Выберите устройство из списка слева для просмотра деталей.\n")
+        ctk.CTkLabel(list_frame, text="Устройства", font=ctk.CTkFont(size=16, weight="bold")).pack(pady=5)
+
+        # Treeview для списка устройств
+        columns = ("icon", "name", "mac", "packets", "rssi", "vendor")
+        self.device_tree = ttk.Treeview(list_frame, columns=columns, show="headings", height=20)
+
+        self.device_tree.heading("icon", text="")
+        self.device_tree.heading("name", text="Имя")
+        self.device_tree.heading("mac", text="MAC")
+        self.device_tree.heading("packets", text="Пакетов")
+        self.device_tree.heading("rssi", text="RSSI")
+        self.device_tree.heading("vendor", text="Производитель")
+
+        self.device_tree.column("icon", width=30, anchor="center")
+        self.device_tree.column("name", width=150)
+        self.device_tree.column("mac", width=130)
+        self.device_tree.column("packets", width=70, anchor="center")
+        self.device_tree.column("rssi", width=70, anchor="center")
+        self.device_tree.column("vendor", width=100)
+
+        # Стиль для Treeview
+        style = ttk.Style()
+        style.theme_use("clam")
+        style.configure("Treeview", background="#2b2b2b", foreground="white", fieldbackground="#2b2b2b")
+        style.configure("Treeview.Heading", background="#1f538d", foreground="white")
+        style.map("Treeview", background=[("selected", "#1f538d")])
+
+        scrollbar = ttk.Scrollbar(list_frame, orient="vertical", command=self.device_tree.yview)
+        self.device_tree.configure(yscrollcommand=scrollbar.set)
+
+        self.device_tree.pack(side="left", fill="both", expand=True)
+        scrollbar.pack(side="right", fill="y")
+
+        # Обработчик клика
+        self.device_tree.bind("<ButtonRelease-1>", self._on_device_select)
+
+        # Правая панель: детали устройства
+        detail_frame = ctk.CTkFrame(self.tab_monitor, width=400)
+        detail_frame.pack(side="right", fill="y", padx=10, pady=10)
+        detail_frame.pack_propagate(False)
+
+        ctk.CTkLabel(detail_frame, text="Детали устройства", font=ctk.CTkFont(size=16, weight="bold")).pack(pady=10)
+
+        self.device_detail = ctk.CTkTextbox(detail_frame)
+        self.device_detail.pack(fill="both", expand=True, padx=5, pady=5)
+        self.device_detail.insert("1.0", "Выберите устройство из списка для просмотра деталей.\n")
+
+    def _on_device_select(self, event):
+        """Обработчик клика по устройству в списке."""
+        selection = self.device_tree.selection()
+        if not selection:
+            return
+
+        item = selection[0]
+        values = self.device_tree.item(item, "values")
+        if not values:
+            return
+
+        mac = values[2]  # MAC-адрес в колонке 3
+
+        # Найти профиль по MAC
+        profile = None
+        for p in self.profiler.profiles.values():
+            for mac_entry in p.mac_history:
+                if mac_entry["mac"] == mac:
+                    profile = p
+                    break
+            if profile:
+                break
+
+        if profile:
+            self._show_device_details(profile)
+
+    def _show_device_details(self, profile):
+        """Показывает детальную информацию об устройстве."""
+        self.device_detail.delete("1.0", "end")
+
+        snap = profile.stable_snapshot or {}
+        rssi_stats = profile.rssi_stats()
+        interval_stats = profile.interval_stats()
+
+        self.device_detail.insert("end", f"{'='*50}\n")
+        self.device_detail.insert("end", f"Имя: {snap.get('local_name', 'N/A')}\n")
+        self.device_detail.insert("end", f"MAC: {profile.mac_history[0]['mac'] if profile.mac_history else 'N/A'}\n")
+        self.device_detail.insert("end", f"Производитель: {get_vendor_name(snap)}\n")
+        self.device_detail.insert("end", f"{'='*50}\n\n")
+
+        self.device_detail.insert("end", f"📦 СТАТИСТИКА\n")
+        self.device_detail.insert("end", f"  Пакетов: {profile.packet_count}\n")
+        self.device_detail.insert("end", f"  Уникальных MAC: {len(profile.mac_history)}\n")
+        self.device_detail.insert("end", f"  Дубликатов отброшено: {profile.duplicate_count}\n\n")
+
+        self.device_detail.insert("end", f"📶 RSSI\n")
+        if rssi_stats:
+            self.device_detail.insert("end", f"  Среднее: {rssi_stats.get('mean', 0):.1f} дБм\n")
+            self.device_detail.insert("end", f"  Мин: {rssi_stats.get('min', 0):.1f} дБм\n")
+            self.device_detail.insert("end", f"  Макс: {rssi_stats.get('max', 0):.1f} дБм\n")
+            self.device_detail.insert("end", f"  Стд. откл: {rssi_stats.get('std', 0):.2f}\n\n")
+
+        self.device_detail.insert("end", f"⏱️ ИНТЕРВАЛЫ\n")
+        if interval_stats:
+            self.device_detail.insert("end", f"  Среднее: {interval_stats.get('mean', 0)*1000:.1f} мс\n")
+            self.device_detail.insert("end", f"  Мин: {interval_stats.get('min', 0)*1000:.1f} мс\n")
+            self.device_detail.insert("end", f"  Макс: {interval_stats.get('max', 0)*1000:.1f} мс\n\n")
+
+        self.device_detail.insert("end", f"🔧 PAYLOAD\n")
+        self.device_detail.insert("end", f"  TX Power: {snap.get('tx_power_dbm', 'N/A')} дБм\n")
+        self.device_detail.insert("end", f"  Service UUIDs: {len(snap.get('service_uuids', []))}\n")
+        mfg = snap.get('manufacturer_data', {})
+        self.device_detail.insert("end", f"  Manufacturer Data: {len(mfg)} записей\n")
+        for cid, data in mfg.items():
+            self.device_detail.insert("end", f"    {cid}: {data}\n")
+
+        self.device_detail.insert("end", f"\n🕐 ВРЕМЯ\n")
+        self.device_detail.insert("end", f"  Первый пакет: {time.strftime('%H:%M:%S', time.localtime(profile.first_seen)) if profile.first_seen else 'N/A'}\n")
+        self.device_detail.insert("end", f"  Последний пакет: {time.strftime('%H:%M:%S', time.localtime(profile.last_seen)) if profile.last_seen else 'N/A'}\n")
 
     def _start_collection(self):
         self.is_collecting = True
         self.btn_start.configure(state="disabled")
         self.btn_stop.configure(state="normal")
         self.lbl_status.configure(text="Статус: сбор...")
-        self.device_list.delete("1.0", "end")
+
+        # Очищаем профайлер
         self.profiler = DeviceProfiler(window=256)
 
         # Запускаем сбор в отдельном потоке
@@ -173,14 +293,14 @@ class BLEMonitorApp(ctk.CTk):
         self.lbl_status.configure(text="Статус: остановлен")
 
     def _collect_loop(self):
-        """Цикл сбора: использует BleakScanner напрямую."""
+    
         import asyncio
         from bleak import BleakScanner
 
         output_path = ROOT / "data" / "raw" / "gui_capture.jsonl"
         output_path.parent.mkdir(parents=True, exist_ok=True)
 
-        # Очищаем файл перед новым сбором
+    # Очищаем файл перед новым сбором
         if output_path.exists():
             output_path.unlink()
 
@@ -200,7 +320,14 @@ class BLEMonitorApp(ctk.CTk):
             }
             with open(output_path, "a", encoding="utf-8") as f:
                 f.write(json.dumps(record, ensure_ascii=False) + "\n")
+            
+            # Обрабатываем запись и сразу объединяем профили
             self.profiler.process_record(record)
+            merge_profiles_by_mac(self.profiler)
+            
+            # Обновляем GUI каждые 10 пакетов
+            if self.profiler.profiles and sum(p.packet_count for p in self.profiler.profiles.values()) % 10 == 0:
+                self.after(0, self._update_device_list)
 
         async def scan():
             scanner = BleakScanner(detection_callback=collector_callback)
@@ -221,8 +348,9 @@ class BLEMonitorApp(ctk.CTk):
 
     def _update_device_list(self):
         """Обновляет список устройств с MAC и иконками."""
-        self.device_list.delete("1.0", "end")
-        self.device_list.insert("1.0", f"Найдено профилей: {len(self.profiler.profiles)}\n\n")
+        # Очищаем Treeview
+        for item in self.device_tree.get_children():
+            self.device_tree.delete(item)
 
         # Сортируем по количеству пакетов (крупные устройства сверху)
         sorted_profiles = sorted(
@@ -240,10 +368,14 @@ class BLEMonitorApp(ctk.CTk):
             rssi_stats = profile.rssi_stats()
             mean_rssi = rssi_stats.get("mean", 0) if rssi_stats else 0
 
-            self.device_list.insert("end", f"{icon} {name}\n")
-            self.device_list.insert("end", f"   MAC: {mac}\n")
-            self.device_list.insert("end", f"   Пакетов: {packets} | RSSI: {mean_rssi:.1f} дБм\n")
-            self.device_list.insert("end", f"   Производитель: {vendor}\n\n")
+            self.device_tree.insert("", "end", values=(
+                icon,
+                name[:20],
+                mac,
+                packets,
+                f"{mean_rssi:.1f}",
+                vendor
+            ))
 
     # ------------------------------------------------------------------
     # Вкладка 2: Алерты
@@ -328,7 +460,10 @@ class BLEMonitorApp(ctk.CTk):
         for r in records:
             profiler.process_record(r)
 
-        self.analysis_result.insert("end", f"Профилей: {len(profiler.profiles)}\n\n")
+        # Объединяем по MAC
+        merge_profiles_by_mac(profiler)
+
+        self.analysis_result.insert("end", f"Профилей (после объединения): {len(profiler.profiles)}\n\n")
 
         # Прогоняем анализаторы
         decisions = evaluate(list(profiler.profiles.values()))

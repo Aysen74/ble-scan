@@ -1,69 +1,39 @@
 {
   "signature": "6d11e62829713fc5",
-  "first_seen": 1795520896.10384,
-  "last_seen": 1795522123.3109813,
-  "packet_count": 197,
-  "unique_macs": 10,
+  "first_seen": 1795797622.7397678,
+  "last_seen": 1795797652.1516101,
+  "packet_count": 12,
+  "unique_macs": 5,
   "mac_history": [
     {
-      "mac": "4A:81:64:40:0A:50",
-      "first_seen": 1795520896.10384,
-      "last_seen": 1795520956.1078985,
-      "count": 2
-    },
-    {
-      "mac": "78:26:6A:52:57:05",
-      "first_seen": 1795520896.1118093,
-      "last_seen": 1795520896.1118093,
-      "count": 1
+      "mac": "1E:95:3A:68:87:A2",
+      "first_seen": 1795797622.7397678,
+      "last_seen": 1795797646.236611,
+      "count": 3
     },
     {
       "mac": "E3:39:F5:19:AF:5D",
-      "first_seen": 1795520896.1138518,
-      "last_seen": 1795522112.929052,
-      "count": 13
+      "first_seen": 1795797633.3525262,
+      "last_seen": 1795797643.409604,
+      "count": 5
     },
     {
-      "mac": "63:33:F5:B7:F6:AB",
-      "first_seen": 1795520896.686613,
-      "last_seen": 1795520896.686613,
+      "mac": "63:94:8B:61:B5:7E",
+      "first_seen": 1795797634.774595,
+      "last_seen": 1795797634.774595,
       "count": 1
     },
     {
-      "mac": "7C:40:03:B5:59:46",
-      "first_seen": 1795521685.0401516,
-      "last_seen": 1795521745.0261328,
+      "mac": "FE:15:3F:5C:28:2C",
+      "first_seen": 1795797646.120079,
+      "last_seen": 1795797652.1516101,
       "count": 2
     },
     {
-      "mac": "59:3C:8A:E7:D5:37",
-      "first_seen": 1795521685.252464,
-      "last_seen": 1795522075.2469954,
-      "count": 86
-    },
-    {
-      "mac": "69:71:F2:57:44:35",
-      "first_seen": 1795521712.3121753,
-      "last_seen": 1795522070.3939612,
-      "count": 22
-    },
-    {
-      "mac": "6E:53:C7:C8:0F:4A",
-      "first_seen": 1795521716.2097127,
-      "last_seen": 1795521716.2097127,
+      "mac": "01:DF:E8:30:27:A6",
+      "first_seen": 1795797652.1456192,
+      "last_seen": 1795797652.1456192,
       "count": 1
-    },
-    {
-      "mac": "68:7E:D6:E9:0D:BE",
-      "first_seen": 1795522079.0190191,
-      "last_seen": 1795522123.3109813,
-      "count": 23
-    },
-    {
-      "mac": "54:42:7E:21:AE:1B",
-      "first_seen": 1795522081.965683,
-      "last_seen": 1795522122.3770096,
-      "count": 46
     }
   ],
   "address_types": [
@@ -71,31 +41,29 @@
   ],
   "stable_snapshot": {
     "local_name": null,
-    "tx_power_dbm": null,
-    "service_uuids": [],
     "manufacturer_data": {}
   },
   "interval_stats": {
-    "count": 196,
-    "mean": 6.261260924290638,
-    "min": 0.002042531967163086,
-    "max": 728.9322531223297,
-    "std": 56.68776095837916
+    "count": 11,
+    "mean": 2.673803849653764,
+    "min": 0.0059909820556640625,
+    "max": 10.61275839805603,
+    "std": 3.028748891347859
   },
   "rssi_stats": {
-    "count": 197,
-    "mean": -69.23857868020305,
-    "min": -127.0,
-    "max": -46.0,
-    "std": 8.804644252688366
+    "count": 12,
+    "mean": -87.5,
+    "min": -96.0,
+    "max": -78.0,
+    "std": 6.171169527191206
   },
   "physical_baseline": {
-    "baseline_frozen": true,
-    "baseline_rssi_samples": 64,
-    "baseline_interval_samples": 63,
+    "baseline_frozen": false,
+    "baseline_rssi_samples": 12,
+    "baseline_interval_samples": 11,
     "baseline_pathloss_samples": 0,
     "duplicates_suppressed": 0,
-    "baseline_rssi_mean": -69.61
+    "baseline_rssi_mean": -87.5
   },
-  "mac_rotation_period_sec": 131.7624269856347
+  "mac_rotation_period_sec": 7.3514628410339355
 }

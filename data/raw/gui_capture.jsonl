@@ -1,223 +1,347 @@
-{"timestamp_unix": 1795690098.791633, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690099.4825127, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690099.4845243, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690099.4865265, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -92, "decoded": {"local_name": null, "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000000e"}}}
-{"timestamp_unix": 1795690099.6059618, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690100.5519443, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690101.3830624, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690101.4889903, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690101.4975705, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -82, "decoded": {"local_name": null, "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000000e"}}}
-{"timestamp_unix": 1795690101.4995997, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -80, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000000e"}}}
-{"timestamp_unix": 1795690101.8515835, "address": "41:F7:19:AB:F5:3D", "rssi_dbm": -70, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
-{"timestamp_unix": 1795690102.4375327, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690102.7851067, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690102.7870793, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690103.0266886, "address": "C1:61:B8:74:F1:AE", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12020001"}}}
-{"timestamp_unix": 1795690103.37897, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690103.5085955, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -86, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000000e"}}}
-{"timestamp_unix": 1795690103.5115886, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -86, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000000e"}}}
-{"timestamp_unix": 1795690103.9806602, "address": "E1:4A:CC:0F:1F:DD", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023900"}}}
-{"timestamp_unix": 1795690104.0895653, "address": "41:F7:19:AB:F5:3D", "rssi_dbm": -78, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
-{"timestamp_unix": 1795690104.0925393, "address": "41:F7:19:AB:F5:3D", "rssi_dbm": -78, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
-{"timestamp_unix": 1795690104.095538, "address": "E1:4A:CC:0F:1F:DD", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023900"}}}
-{"timestamp_unix": 1795690104.2185318, "address": "E1:4A:CC:0F:1F:DD", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023900"}}}
-{"timestamp_unix": 1795690104.3275437, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -84, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690104.4491825, "address": "E1:4A:CC:0F:1F:DD", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023900"}}}
-{"timestamp_unix": 1795690104.678058, "address": "E1:4A:CC:0F:1F:DD", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023900"}}}
-{"timestamp_unix": 1795690104.8049257, "address": "E1:4A:CC:0F:1F:DD", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023900"}}}
-{"timestamp_unix": 1795690104.9195976, "address": "E1:4A:CC:0F:1F:DD", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023900"}}}
-{"timestamp_unix": 1795690105.03027, "address": "C1:61:B8:74:F1:AE", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12020001"}}}
-{"timestamp_unix": 1795690105.0396492, "address": "E1:4A:CC:0F:1F:DD", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023900"}}}
-{"timestamp_unix": 1795690105.2725291, "address": "E1:4A:CC:0F:1F:DD", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023900"}}}
-{"timestamp_unix": 1795690105.5017292, "address": "E1:4A:CC:0F:1F:DD", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023900"}}}
-{"timestamp_unix": 1795690105.5077255, "address": "2B:D8:46:1E:35:BC", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {}}}
-{"timestamp_unix": 1795690105.619659, "address": "E1:4A:CC:0F:1F:DD", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023900"}}}
-{"timestamp_unix": 1795690105.7529657, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -84, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690105.9785314, "address": "E1:4A:CC:0F:1F:DD", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023900"}}}
-{"timestamp_unix": 1795690106.1056583, "address": "E1:4A:CC:0F:1F:DD", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023900"}}}
-{"timestamp_unix": 1795690106.216009, "address": "E1:4A:CC:0F:1F:DD", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023900"}}}
-{"timestamp_unix": 1795690106.4486563, "address": "E1:4A:CC:0F:1F:DD", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023900"}}}
-{"timestamp_unix": 1795690106.8115315, "address": "E1:4A:CC:0F:1F:DD", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023900"}}}
-{"timestamp_unix": 1795690106.8175051, "address": "64:21:10:98:02:1A", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10050e18238cbc"}}}
-{"timestamp_unix": 1795690106.8215027, "address": "41:F7:19:AB:F5:3D", "rssi_dbm": -72, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
-{"timestamp_unix": 1795690106.9195309, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690106.9245267, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690106.931625, "address": "E1:4A:CC:0F:1F:DD", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023900"}}}
-{"timestamp_unix": 1795690107.0369728, "address": "C1:61:B8:74:F1:AE", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12020001"}}}
-{"timestamp_unix": 1795690107.0466554, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -88, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
-{"timestamp_unix": 1795690107.762525, "address": "41:F7:19:AB:F5:3D", "rssi_dbm": -80, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
-{"timestamp_unix": 1795690107.986442, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690108.4715655, "address": "64:21:10:98:02:1A", "rssi_dbm": -94, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10050e18238cbc"}}}
-{"timestamp_unix": 1795690108.5805569, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -84, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000000e"}}}
-{"timestamp_unix": 1795690109.0456657, "address": "C1:61:B8:74:F1:AE", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12020001"}}}
-{"timestamp_unix": 1795690110.1165416, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690110.831545, "address": "2B:D8:46:1E:35:BC", "rssi_dbm": -88, "decoded": {"local_name": null, "manufacturer_data": {}}}
-{"timestamp_unix": 1795690111.0549066, "address": "C1:61:B8:74:F1:AE", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12020001"}}}
-{"timestamp_unix": 1795690111.0599241, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -84, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000000e"}}}
-{"timestamp_unix": 1795690112.128531, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690113.0669339, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -86, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
-{"timestamp_unix": 1795690113.069952, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -86, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
-{"timestamp_unix": 1795690113.3077486, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690113.4156504, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690114.4884853, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690115.0775347, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -94, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000000e"}}}
-{"timestamp_unix": 1795690115.1931748, "address": "41:F7:19:AB:F5:3D", "rssi_dbm": -78, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
-{"timestamp_unix": 1795690115.436312, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690115.5500484, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690115.6595879, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -86, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690116.1435368, "address": "41:F7:19:AB:F5:3D", "rssi_dbm": -76, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
-{"timestamp_unix": 1795690116.4955318, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690116.605538, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -74, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690118.3007362, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -72, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690119.125599, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690120.1915777, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -86, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690120.2995386, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690120.6515484, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -94, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000000e"}}}
-{"timestamp_unix": 1795690120.6585746, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -94, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
-{"timestamp_unix": 1795690120.7685518, "address": "41:F7:19:AB:F5:3D", "rssi_dbm": -78, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
-{"timestamp_unix": 1795690121.3685548, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690121.477696, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690121.7185369, "address": "2B:D8:46:1E:35:BC", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {}}}
-{"timestamp_unix": 1795690122.427538, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690122.6675427, "address": "41:F7:19:AB:F5:3D", "rssi_dbm": -70, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
-{"timestamp_unix": 1795690122.6705382, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -86, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000000e"}}}
-{"timestamp_unix": 1795690123.3749633, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -82, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690124.1935346, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -90, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
-{"timestamp_unix": 1795690124.318573, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690124.9057631, "address": "41:F7:19:AB:F5:3D", "rssi_dbm": -80, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
-{"timestamp_unix": 1795690125.377513, "address": "C0:39:37:AA:32:00", "rssi_dbm": -94, "decoded": {"local_name": null, "manufacturer_data": {"0xd23": "000001c03937aa3200000000000000"}}}
-{"timestamp_unix": 1795690125.3805342, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690126.2000124, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -80, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000000e"}}}
-{"timestamp_unix": 1795690126.2040408, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -80, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000000e"}}}
-{"timestamp_unix": 1795690126.2070327, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -80, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
-{"timestamp_unix": 1795690126.3275816, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690126.680612, "address": "41:F7:19:AB:F5:3D", "rssi_dbm": -80, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
-{"timestamp_unix": 1795690127.3857286, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690127.7509875, "address": "7D:C7:8E:77:8E:3D", "rssi_dbm": -94, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1006151ed4973007"}}}
-{"timestamp_unix": 1795690128.2125216, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -84, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000000e"}}}
-{"timestamp_unix": 1795690128.215498, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -84, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000000e"}}}
-{"timestamp_unix": 1795690128.2195177, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -84, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
-{"timestamp_unix": 1795690128.2225158, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -84, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
-{"timestamp_unix": 1795690128.5677707, "address": "7D:C7:8E:77:8E:3D", "rssi_dbm": -92, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1006151ed4973007"}}}
-{"timestamp_unix": 1795690128.6816409, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690129.2765303, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -74, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690129.3906703, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -84, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690130.2215614, "address": "7D:C7:8E:77:8E:3D", "rssi_dbm": -94, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1006151ed4973007"}}}
-{"timestamp_unix": 1795690130.4595654, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -88, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690130.9396536, "address": "76:14:92:20:30:41", "rssi_dbm": -94, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "160800a159fd57563bab"}}}
-{"timestamp_unix": 1795690131.6505938, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690131.752754, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -84, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000000e"}}}
-{"timestamp_unix": 1795690131.7557406, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -84, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000000e"}}}
-{"timestamp_unix": 1795690131.7587366, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -74, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690132.0006506, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690132.3512063, "address": "2B:D8:46:1E:35:BC", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {}}}
-{"timestamp_unix": 1795690132.592666, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -88, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690132.6977384, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690132.8259, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -46, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690133.6455984, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690133.6475973, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690133.6525888, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -84, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690133.7738426, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -92, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000000e"}}}
-{"timestamp_unix": 1795690134.467977, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690134.469952, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690134.7199645, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -82, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690134.951766, "address": "5B:75:D8:5B:D4:C3", "rssi_dbm": -92, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1608002aa3c14954b85e"}}}
-{"timestamp_unix": 1795690135.297613, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -86, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
-{"timestamp_unix": 1795690135.2996128, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -86, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
-{"timestamp_unix": 1795690135.3036356, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690135.3046093, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690135.417541, "address": "41:F7:19:AB:F5:3D", "rssi_dbm": -72, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
-{"timestamp_unix": 1795690135.4195216, "address": "41:F7:19:AB:F5:3D", "rssi_dbm": -72, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
-{"timestamp_unix": 1795690135.535993, "address": "E9:78:7D:32:F8:47", "rssi_dbm": -88, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12020003"}}}
-{"timestamp_unix": 1795690135.5449889, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690135.6625433, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -72, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690136.1299245, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690136.132923, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690136.3607278, "address": "41:F7:19:AB:F5:3D", "rssi_dbm": -76, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
-{"timestamp_unix": 1795690136.8329906, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -84, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690136.959682, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690136.9616845, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690137.3095727, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -92, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
-{"timestamp_unix": 1795690137.5405376, "address": "E9:78:7D:32:F8:47", "rssi_dbm": -86, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12020003"}}}
-{"timestamp_unix": 1795690137.7905397, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690137.7925367, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690137.8955164, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -84, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690138.7325373, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690138.9705424, "address": "5B:75:D8:5B:D4:C3", "rssi_dbm": -84, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1608002aa3c14954b85e"}}}
-{"timestamp_unix": 1795690139.312515, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -84, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000000e"}}}
-{"timestamp_unix": 1795690139.3155358, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -84, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000000e"}}}
-{"timestamp_unix": 1795690139.324899, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -84, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
-{"timestamp_unix": 1795690139.3278973, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -84, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
-{"timestamp_unix": 1795690139.43954, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -46, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690139.441535, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -46, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690139.5505092, "address": "E9:78:7D:32:F8:47", "rssi_dbm": -86, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12020003"}}}
-{"timestamp_unix": 1795690139.6775749, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -82, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690139.7895162, "address": "5E:06:7D:1C:95:76", "rssi_dbm": -92, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10053b1cdcfcda"}}}
-{"timestamp_unix": 1795690139.7925334, "address": "5E:06:7D:1C:95:76", "rssi_dbm": -92, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "0110000000000000000000000000000000"}}}
-{"timestamp_unix": 1795690140.2669313, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690140.2689283, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690140.7387447, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -82, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690140.8456838, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690141.0920355, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690141.0940056, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690141.3184693, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -86, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000000e"}}}
-{"timestamp_unix": 1795690141.3204958, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -86, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000000e"}}}
-{"timestamp_unix": 1795690141.331488, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -86, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
-{"timestamp_unix": 1795690141.3334835, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -86, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
-{"timestamp_unix": 1795690141.553667, "address": "E9:78:7D:32:F8:47", "rssi_dbm": -86, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12020003"}}}
-{"timestamp_unix": 1795690141.7967076, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -82, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690141.9214451, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690141.92345, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690142.6235905, "address": "41:F7:19:AB:F5:3D", "rssi_dbm": -80, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
-{"timestamp_unix": 1795690142.6255686, "address": "41:F7:19:AB:F5:3D", "rssi_dbm": -80, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
-{"timestamp_unix": 1795690142.6295865, "address": "2B:D8:46:1E:35:BC", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {}}}
-{"timestamp_unix": 1795690142.74893, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690142.7509289, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690142.8549232, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -82, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690143.565536, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690143.5675344, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690143.6939018, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690143.8013036, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -74, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690144.5235412, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -74, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690144.9950914, "address": "5B:75:D8:5B:D4:C3", "rssi_dbm": -84, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1608002aa3c14954b85e"}}}
-{"timestamp_unix": 1795690145.4657536, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690145.4707482, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690145.5697112, "address": "E9:78:7D:32:F8:47", "rssi_dbm": -86, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12020003"}}}
-{"timestamp_unix": 1795690145.813925, "address": "41:F7:19:AB:F5:3D", "rssi_dbm": -78, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
-{"timestamp_unix": 1795690145.8158984, "address": "41:F7:19:AB:F5:3D", "rssi_dbm": -78, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
-{"timestamp_unix": 1795690146.5196614, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690146.5216908, "address": "6A:01:FD:4E:8D:84", "rssi_dbm": -88, "decoded": {"local_name": null, "manufacturer_data": {}}}
-{"timestamp_unix": 1795690146.7575197, "address": "45:A2:75:E4:59:C5", "rssi_dbm": -92, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005751cd701d0"}}}
-{"timestamp_unix": 1795690146.7595372, "address": "45:A2:75:E4:59:C5", "rssi_dbm": -92, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005751cd701d0"}}}
-{"timestamp_unix": 1795690146.8886006, "address": "C0:68:5F:61:23:70", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {"0x65a": "180144c45ee6a3a000"}}}
-{"timestamp_unix": 1795690147.1085336, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690147.1105037, "address": "7D:44:D6:A0:D6:E6", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005371cb65f04"}}}
-{"timestamp_unix": 1795690147.343529, "address": "D0:54:E5:0D:FE:78", "rssi_dbm": -88, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12020002"}}}
-{"timestamp_unix": 1795690147.4735491, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -82, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690147.578528, "address": "E9:78:7D:32:F8:47", "rssi_dbm": -88, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12020003"}}}
-{"timestamp_unix": 1795690147.937529, "address": "2B:D8:46:1E:35:BC", "rssi_dbm": -88, "decoded": {"local_name": null, "manufacturer_data": {}}}
-{"timestamp_unix": 1795690148.5380192, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -82, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690148.8849647, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -82, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
-{"timestamp_unix": 1795690148.887963, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -82, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
-{"timestamp_unix": 1795690149.362272, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690149.472651, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -74, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690150.1955943, "address": "6A:01:FD:4E:8D:84", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {}}}
-{"timestamp_unix": 1795690150.4199908, "address": "2B:D8:46:1E:35:BC", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {}}}
-{"timestamp_unix": 1795690150.5349286, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -72, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690150.8979428, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -84, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000000e"}}}
-{"timestamp_unix": 1795690151.010534, "address": "5B:75:D8:5B:D4:C3", "rssi_dbm": -84, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1608002aa3c14954b85e"}}}
-{"timestamp_unix": 1795690151.8451114, "address": "6A:01:FD:4E:8D:84", "rssi_dbm": -88, "decoded": {"local_name": null, "manufacturer_data": {}}}
-{"timestamp_unix": 1795690151.847083, "address": "6A:01:FD:4E:8D:84", "rssi_dbm": -88, "decoded": {"local_name": null, "manufacturer_data": {}}}
-{"timestamp_unix": 1795690152.0765321, "address": "6A:01:FD:4E:8D:84", "rssi_dbm": -86, "decoded": {"local_name": null, "manufacturer_data": {}}}
-{"timestamp_unix": 1795690152.078527, "address": "6A:01:FD:4E:8D:84", "rssi_dbm": -86, "decoded": {"local_name": null, "manufacturer_data": {}}}
-{"timestamp_unix": 1795690152.4240043, "address": "C0:68:5F:61:23:70", "rssi_dbm": -88, "decoded": {"local_name": null, "manufacturer_data": {"0x65a": "180144c45ee6a3a000"}}}
-{"timestamp_unix": 1795690152.6719394, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -74, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
-{"timestamp_unix": 1795690152.9025314, "address": "6A:01:FD:4E:8D:84", "rssi_dbm": -88, "decoded": {"local_name": null, "manufacturer_data": {}}}
-{"timestamp_unix": 1795690152.9045053, "address": "6A:01:FD:4E:8D:84", "rssi_dbm": -88, "decoded": {"local_name": null, "manufacturer_data": {}}}
-{"timestamp_unix": 1795690153.0152845, "address": "6A:01:FD:4E:8D:84", "rssi_dbm": -88, "decoded": {"local_name": null, "manufacturer_data": {}}}
-{"timestamp_unix": 1795690153.018257, "address": "5B:75:D8:5B:D4:C3", "rssi_dbm": -92, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1608002aa3c14954b85e"}}}
-{"timestamp_unix": 1795690153.49601, "address": "C7:9F:EA:CA:42:56", "rssi_dbm": -84, "decoded": {"local_name": null, "manufacturer_data": {"0x4b03": "1a5d37b96d7b"}}}
-{"timestamp_unix": 1795690153.4985726, "address": "C7:9F:EA:CA:42:56", "rssi_dbm": -84, "decoded": {"local_name": "A0:A3:E6:5E:C4:44", "manufacturer_data": {"0x4b03": "1a5d37b96d7b"}}}
-{"timestamp_unix": 1795690153.6095212, "address": "41:F7:19:AB:F5:3D", "rssi_dbm": -80, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
-{"timestamp_unix": 1795690153.6114936, "address": "41:F7:19:AB:F5:3D", "rssi_dbm": -80, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
-{"timestamp_unix": 1795690153.8425314, "address": "0D:9A:FC:09:E4:A2", "rssi_dbm": -84, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022d19442ac3b5ebbe134254cde4928de0f9c27ee5818f52b"}}}
+{"timestamp_unix": 1795798228.6539268, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798228.6629217, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798229.7006056, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798229.7126033, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
+{"timestamp_unix": 1795798229.7794716, "address": "42:04:5B:19:38:A2", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1006151e23bc686b"}}}
+{"timestamp_unix": 1795798229.7894657, "address": "42:04:5B:19:38:A2", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1006151e23bc686b"}}}
+{"timestamp_unix": 1795798230.6545851, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798230.7695324, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -80, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798231.362698, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798231.3716984, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798231.3777037, "address": "42:04:5B:19:38:A2", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1006151e23bc686b"}}}
+{"timestamp_unix": 1795798231.3836915, "address": "42:04:5B:19:38:A2", "rssi_dbm": -92, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1006151e23bc686b"}}}
+{"timestamp_unix": 1795798231.5956974, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798231.72224, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -84, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798231.72926, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -84, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798232.1836371, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798232.311325, "address": "45:E9:C9:EA:FA:91", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10053f1c678a43"}}}
+{"timestamp_unix": 1795798232.321294, "address": "45:E9:C9:EA:FA:91", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10053f1c678a43"}}}
+{"timestamp_unix": 1795798232.5456083, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798232.6562912, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -82, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798232.6704469, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -78, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798232.6774428, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -78, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798233.1376143, "address": "45:E9:C9:EA:FA:91", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10053f1c678a43"}}}
+{"timestamp_unix": 1795798233.143604, "address": "45:E9:C9:EA:FA:91", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10053f1c678a43"}}}
+{"timestamp_unix": 1795798233.491601, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798233.7256174, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000001a"}}}
+{"timestamp_unix": 1795798233.7316124, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -80, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000001a"}}}
+{"timestamp_unix": 1795798233.9627643, "address": "45:E9:C9:EA:FA:91", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10053f1c678a43"}}}
+{"timestamp_unix": 1795798233.9697602, "address": "45:E9:C9:EA:FA:91", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10053f1c678a43"}}}
+{"timestamp_unix": 1795798234.1964982, "address": "53:E6:59:82:A3:2A", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10052d1c28c950"}}}
+{"timestamp_unix": 1795798234.2036228, "address": "53:E6:59:82:A3:2A", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10052d1c28c950"}}}
+{"timestamp_unix": 1795798234.8977878, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798234.909781, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798234.9177766, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798235.7305875, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798235.7376091, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798235.850177, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798236.5523088, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798236.5582979, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798236.9118297, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798237.2656178, "address": "45:E9:C9:EA:FA:91", "rssi_dbm": -46, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10053f1c678a43"}}}
+{"timestamp_unix": 1795798237.2715886, "address": "45:E9:C9:EA:FA:91", "rssi_dbm": -46, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10053f1c678a43"}}}
+{"timestamp_unix": 1795798237.8617113, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798238.4517984, "address": "4C:C9:5E:97:07:4D", "rssi_dbm": -96, "decoded": {"local_name": null, "manufacturer_data": {"0x75": "420401806e4cc95e97074d4ec95e97074c015e7400000000"}}}
+{"timestamp_unix": 1795798238.8016827, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798238.913859, "address": "22:A1:34:4E:ED:1F", "rssi_dbm": -94, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "010920222dcaa114e8af3ffbef8fef9806076a97075e2c944c0a48"}}}
+{"timestamp_unix": 1795798239.2765937, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -86, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
+{"timestamp_unix": 1795798239.2855895, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -88, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
+{"timestamp_unix": 1795798239.2936072, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798239.3025594, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798239.8647594, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798240.100617, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798240.1106076, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798240.685813, "address": "FE:15:3F:5C:28:2C", "rssi_dbm": -94, "decoded": {"local_name": null, "manufacturer_data": {}}}
+{"timestamp_unix": 1795798240.813622, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798241.3973956, "address": "22:A1:34:4E:ED:1F", "rssi_dbm": -94, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "010920222dcaa114e8af3ffbef8fef9806076a97075e2c944c0a48"}}}
+{"timestamp_unix": 1795798241.877272, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -82, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798242.817162, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798242.829155, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798243.2876139, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -80, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
+{"timestamp_unix": 1795798243.296629, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -78, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
+{"timestamp_unix": 1795798243.641781, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798243.6477754, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798243.8793228, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798244.8238566, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798244.8318818, "address": "57:34:03:99:B9:32", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798244.8418267, "address": "57:34:03:99:B9:32", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798245.308631, "address": "33:AE:14:C2:6E:B8", "rssi_dbm": -92, "decoded": {"local_name": null, "manufacturer_data": {}}}
+{"timestamp_unix": 1795798245.5458705, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798245.6465254, "address": "FF:06:E5:48:48:2A", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023301"}}}
+{"timestamp_unix": 1795798245.6545198, "address": "57:34:03:99:B9:32", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798245.6645138, "address": "42:04:5B:19:38:A2", "rssi_dbm": -92, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1006151e23bc686b"}}}
+{"timestamp_unix": 1795798245.6705053, "address": "42:04:5B:19:38:A2", "rssi_dbm": -92, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1006151e23bc686b"}}}
+{"timestamp_unix": 1795798245.7762542, "address": "FF:06:E5:48:48:2A", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023301"}}}
+{"timestamp_unix": 1795798245.7862365, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -78, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000001a"}}}
+{"timestamp_unix": 1795798245.7952316, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -80, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000001a"}}}
+{"timestamp_unix": 1795798246.123095, "address": "FF:06:E5:48:48:2A", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023301"}}}
+{"timestamp_unix": 1795798246.249024, "address": "FF:06:E5:48:48:2A", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023301"}}}
+{"timestamp_unix": 1795798246.3600094, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798246.3675733, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798246.4766028, "address": "FF:06:E5:48:48:2A", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023301"}}}
+{"timestamp_unix": 1795798246.4856234, "address": "57:34:03:99:B9:32", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798246.493616, "address": "57:34:03:99:B9:32", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798246.6055598, "address": "FF:06:E5:48:48:2A", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023301"}}}
+{"timestamp_unix": 1795798246.7203443, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798246.730295, "address": "FF:06:E5:48:48:2A", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023301"}}}
+{"timestamp_unix": 1795798246.8298507, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -84, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798246.8388233, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -84, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798246.9475362, "address": "FF:06:E5:48:48:2A", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023301"}}}
+{"timestamp_unix": 1795798247.0746324, "address": "FF:06:E5:48:48:2A", "rssi_dbm": -60, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023301"}}}
+{"timestamp_unix": 1795798247.3046346, "address": "FF:06:E5:48:48:2A", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023301"}}}
+{"timestamp_unix": 1795798247.3126035, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -92, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798247.3245988, "address": "42:04:5B:19:38:A2", "rssi_dbm": -92, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1006151e23bc686b"}}}
+{"timestamp_unix": 1795798247.4288332, "address": "FF:06:E5:48:48:2A", "rssi_dbm": -60, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023301"}}}
+{"timestamp_unix": 1795798247.5403092, "address": "FF:06:E5:48:48:2A", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023301"}}}
+{"timestamp_unix": 1795798247.6617682, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798247.890792, "address": "FF:06:E5:48:48:2A", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023301"}}}
+{"timestamp_unix": 1795798248.015731, "address": "FF:06:E5:48:48:2A", "rssi_dbm": -60, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023301"}}}
+{"timestamp_unix": 1795798248.128353, "address": "57:34:03:99:B9:32", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798248.1353312, "address": "57:34:03:99:B9:32", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798248.1433246, "address": "FF:06:E5:48:48:2A", "rssi_dbm": -62, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023301"}}}
+{"timestamp_unix": 1795798248.3679109, "address": "FF:06:E5:48:48:2A", "rssi_dbm": -62, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023301"}}}
+{"timestamp_unix": 1795798248.4877687, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -74, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798249.078739, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798249.316113, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -80, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
+{"timestamp_unix": 1795798249.3261309, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798250.9783144, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798251.3241155, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798251.3311136, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -88, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000001a"}}}
+{"timestamp_unix": 1795798251.7964125, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798252.3926742, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798252.8596275, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -80, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
+{"timestamp_unix": 1795798253.332879, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798253.3418741, "address": "57:34:03:99:B9:32", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798254.1672962, "address": "57:34:03:99:B9:32", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798254.1733117, "address": "57:34:03:99:B9:32", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798254.3950236, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798254.518219, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798254.5242162, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798255.3336194, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798255.3436134, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798256.2812204, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798257.2285972, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798257.2366009, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798257.5823061, "address": "53:E6:59:82:A3:2A", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10052d1c28c950"}}}
+{"timestamp_unix": 1795798257.5893023, "address": "53:E6:59:82:A3:2A", "rssi_dbm": -92, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10052d1c28c950"}}}
+{"timestamp_unix": 1795798258.0504935, "address": "57:34:03:99:B9:32", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798258.057489, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798258.0644846, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798258.075478, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798258.170424, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798258.8857589, "address": "57:34:03:99:B9:32", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798258.8947296, "address": "57:34:03:99:B9:32", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798259.1168075, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798259.6016123, "address": "C5:F1:27:1E:54:C7", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12020001"}}}
+{"timestamp_unix": 1795798259.71265, "address": "57:34:03:99:B9:32", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798259.7196403, "address": "57:34:03:99:B9:32", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798259.9449637, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798259.9519584, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798260.070868, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798260.2938309, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798260.302848, "address": "E3:39:F5:19:AF:5D", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {}}}
+{"timestamp_unix": 1795798260.5385408, "address": "57:34:03:99:B9:32", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798260.545537, "address": "57:34:03:99:B9:32", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798261.018701, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798261.1264338, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798261.3607287, "address": "57:34:03:99:B9:32", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798261.366725, "address": "57:34:03:99:B9:32", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798261.8404598, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798261.847458, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798262.1848834, "address": "57:34:03:99:B9:32", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798262.191882, "address": "57:34:03:99:B9:32", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798262.4233642, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -80, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000001a"}}}
+{"timestamp_unix": 1795798262.4323587, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -80, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000001a"}}}
+{"timestamp_unix": 1795798262.4383552, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -80, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
+{"timestamp_unix": 1795798262.4443483, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -80, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
+{"timestamp_unix": 1795798262.6607502, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798262.6677406, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798263.143649, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798263.2526033, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798263.6155653, "address": "C5:F1:27:1E:54:C7", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12020001"}}}
+{"timestamp_unix": 1795798264.3108578, "address": "E3:39:F5:19:AF:5D", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {}}}
+{"timestamp_unix": 1795798264.3208098, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798264.430558, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -86, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000001a"}}}
+{"timestamp_unix": 1795798264.4405518, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -86, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000001a"}}}
+{"timestamp_unix": 1795798264.4465487, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -86, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
+{"timestamp_unix": 1795798264.4525452, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -86, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
+{"timestamp_unix": 1795798264.5618188, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798264.567815, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798265.0288596, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -90, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798265.0358272, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -90, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798265.3767247, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798265.383699, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798265.389716, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798265.6244788, "address": "C5:F1:27:1E:54:C7", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12020001"}}}
+{"timestamp_unix": 1795798266.0919988, "address": "61:F3:DD:CC:FF:95", "rssi_dbm": -92, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "0110000000000000000000000000000000"}}}
+{"timestamp_unix": 1795798266.099012, "address": "53:E6:59:82:A3:2A", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10052d1c28c950"}}}
+{"timestamp_unix": 1795798266.3248658, "address": "E3:39:F5:19:AF:5D", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {}}}
+{"timestamp_unix": 1795798266.3318622, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798266.6726718, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798267.2743363, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798267.2803342, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798267.5148351, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798267.6178734, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798267.6330547, "address": "C5:F1:27:1E:54:C7", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12020001"}}}
+{"timestamp_unix": 1795798267.7378583, "address": "C3:64:34:C7:6A:90", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {}}}
+{"timestamp_unix": 1795798268.2231805, "address": "57:34:03:99:B9:32", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798268.2301655, "address": "57:34:03:99:B9:32", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798268.334671, "address": "E3:39:F5:19:AF:5D", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {}}}
+{"timestamp_unix": 1795798268.455588, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -78, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000001a"}}}
+{"timestamp_unix": 1795798268.4615843, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -78, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000001a"}}}
+{"timestamp_unix": 1795798268.8077977, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798269.0484602, "address": "57:34:03:99:B9:32", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798269.0574555, "address": "57:34:03:99:B9:32", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798269.6376617, "address": "C5:F1:27:1E:54:C7", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12020001"}}}
+{"timestamp_unix": 1795798269.87131, "address": "57:34:03:99:B9:32", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798269.8812754, "address": "57:34:03:99:B9:32", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798269.890271, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798269.9853714, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798269.9953651, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798270.0056446, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -92, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
+{"timestamp_unix": 1795798270.3478322, "address": "E3:39:F5:19:AF:5D", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {}}}
+{"timestamp_unix": 1795798270.8081276, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798271.5246272, "address": "57:34:03:99:B9:32", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798271.7601607, "address": "C3:64:34:C7:6A:90", "rssi_dbm": -92, "decoded": {"local_name": null, "manufacturer_data": {}}}
+{"timestamp_unix": 1795798271.7711604, "address": "42:04:5B:19:38:A2", "rssi_dbm": -92, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1006151e23bc686b"}}}
+{"timestamp_unix": 1795798271.8726814, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798272.0042498, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -80, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000001a"}}}
+{"timestamp_unix": 1795798272.011226, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -78, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000001a"}}}
+{"timestamp_unix": 1795798272.3450556, "address": "57:34:03:99:B9:32", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798272.3520284, "address": "57:34:03:99:B9:32", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798272.7046778, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -54, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798272.712693, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -54, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798272.8277073, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798272.936677, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798273.1706564, "address": "57:34:03:99:B9:32", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798273.1806772, "address": "57:34:03:99:B9:32", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798273.1906643, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -90, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798273.1996617, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -88, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798273.9985867, "address": "57:34:03:99:B9:32", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798274.0055752, "address": "57:34:03:99:B9:32", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798274.1297033, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -82, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798274.1357238, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -80, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798274.8246446, "address": "57:34:03:99:B9:32", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798274.8316405, "address": "57:34:03:99:B9:32", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798275.070241, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798275.4182029, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798275.4242008, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -58, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798275.5361369, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -80, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000001a"}}}
+{"timestamp_unix": 1795798275.5461314, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -78, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
+{"timestamp_unix": 1795798275.5521276, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -78, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
+{"timestamp_unix": 1795798275.6500707, "address": "57:34:03:99:B9:32", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798275.6570678, "address": "57:34:03:99:B9:32", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798275.6640627, "address": "F1:14:A9:6B:E1:3C", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12020003"}}}
+{"timestamp_unix": 1795798275.8955128, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -82, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798276.1353717, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798276.243332, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798277.0700967, "address": "53:E6:59:82:A3:2A", "rssi_dbm": -92, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10052d1c28c950"}}}
+{"timestamp_unix": 1795798277.1934679, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -88, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798277.200465, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798277.3054397, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798277.312427, "address": "57:34:03:99:B9:32", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798277.3214295, "address": "57:34:03:99:B9:32", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798277.5556316, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -86, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000001a"}}}
+{"timestamp_unix": 1795798277.5645988, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -86, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000001a"}}}
+{"timestamp_unix": 1795798277.6663954, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -84, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798277.6723926, "address": "C5:F1:27:1E:54:C7", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12020001"}}}
+{"timestamp_unix": 1795798277.7855027, "address": "C3:64:34:C7:6A:90", "rssi_dbm": -94, "decoded": {"local_name": null, "manufacturer_data": {}}}
+{"timestamp_unix": 1795798277.89346, "address": "28:E7:ED:9D:FF:6C", "rssi_dbm": -92, "decoded": {"local_name": null, "manufacturer_data": {}}}
+{"timestamp_unix": 1795798278.1294186, "address": "57:34:03:99:B9:32", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798278.1383867, "address": "57:34:03:99:B9:32", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798278.1483805, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -90, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798278.1544147, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -90, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798278.160374, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798278.169368, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798278.1783636, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798278.6083605, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -88, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798278.959041, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798278.9660144, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798279.0839486, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -84, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798279.092942, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -84, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798279.3187566, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798279.6705227, "address": "C5:F1:27:1E:54:C7", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12020001"}}}
+{"timestamp_unix": 1795798279.7844732, "address": "57:34:03:99:B9:32", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798279.7914696, "address": "57:34:03:99:B9:32", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798280.3842878, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -80, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798280.7418146, "address": "22:A1:34:4E:ED:1F", "rssi_dbm": -94, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "010920222dcaa114e8af3ffbef8fef9806076a97075e2c944c0a48"}}}
+{"timestamp_unix": 1795798281.0872283, "address": "FE:15:3F:5C:28:2C", "rssi_dbm": -94, "decoded": {"local_name": null, "manufacturer_data": {}}}
+{"timestamp_unix": 1795798281.673511, "address": "C5:F1:27:1E:54:C7", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12020001"}}}
+{"timestamp_unix": 1795798281.6825037, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798281.6904995, "address": "57:34:03:99:B9:32", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798281.7004669, "address": "57:34:03:99:B9:32", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798282.50628, "address": "57:34:03:99:B9:32", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798282.513249, "address": "57:34:03:99:B9:32", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798282.626209, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -80, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
+{"timestamp_unix": 1795798282.6352034, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -78, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
+{"timestamp_unix": 1795798282.6441815, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798283.335998, "address": "57:34:03:99:B9:32", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798283.3429673, "address": "57:34:03:99:B9:32", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798283.5715203, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798283.6836095, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798284.0407739, "address": "DE:A4:ED:16:B9:82", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023902"}}}
+{"timestamp_unix": 1795798284.155708, "address": "57:34:03:99:B9:32", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798284.1637034, "address": "57:34:03:99:B9:32", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798284.172698, "address": "DE:A4:ED:16:B9:82", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023902"}}}
+{"timestamp_unix": 1795798284.1826937, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -90, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798284.1916876, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -92, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798284.2716641, "address": "DE:A4:ED:16:B9:82", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023902"}}}
+{"timestamp_unix": 1795798284.4011724, "address": "DE:A4:ED:16:B9:82", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023902"}}}
+{"timestamp_unix": 1795798284.410166, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798284.5143058, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798284.5233006, "address": "DE:A4:ED:16:B9:82", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023902"}}}
+{"timestamp_unix": 1795798284.6312406, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798284.7530775, "address": "DE:A4:ED:16:B9:82", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023902"}}}
+{"timestamp_unix": 1795798284.9881542, "address": "57:34:03:99:B9:32", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798284.997175, "address": "57:34:03:99:B9:32", "rssi_dbm": -48, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798285.0061445, "address": "22:A1:34:4E:ED:1F", "rssi_dbm": -94, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "010920222dcaa114e8af3ffbef8fef9806076a97075e2c944c0a48"}}}
+{"timestamp_unix": 1795798285.2222462, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -54, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798285.3445427, "address": "DE:A4:ED:16:B9:82", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023902"}}}
+{"timestamp_unix": 1795798285.46402, "address": "DE:A4:ED:16:B9:82", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023902"}}}
+{"timestamp_unix": 1795798285.5716279, "address": "DE:A4:ED:16:B9:82", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023902"}}}
+{"timestamp_unix": 1795798285.696673, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798285.8109605, "address": "57:34:03:99:B9:32", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798285.9385114, "address": "DE:A4:ED:16:B9:82", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023902"}}}
+{"timestamp_unix": 1795798286.1752446, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -80, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000001a"}}}
+{"timestamp_unix": 1795798286.4002707, "address": "DE:A4:ED:16:B9:82", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023902"}}}
+{"timestamp_unix": 1795798286.6341221, "address": "57:34:03:99:B9:32", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798286.7570512, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798286.7670457, "address": "DE:A4:ED:16:B9:82", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023902"}}}
+{"timestamp_unix": 1795798286.877286, "address": "DE:A4:ED:16:B9:82", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12023902"}}}
+{"timestamp_unix": 1795798287.121982, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798287.6978047, "address": "F1:14:A9:6B:E1:3C", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "12020003"}}}
+{"timestamp_unix": 1795798287.9376607, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798288.065616, "address": "53:E6:59:82:A3:2A", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10052d1c28c950"}}}
+{"timestamp_unix": 1795798288.1873815, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -86, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "4204012067210d000201320101000100000000000000001a"}}}
+{"timestamp_unix": 1795798288.541682, "address": "42:04:5B:19:38:A2", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1006151e23bc686b"}}}
+{"timestamp_unix": 1795798288.8932168, "address": "53:E6:59:82:A3:2A", "rssi_dbm": -92, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10052d1c28c950"}}}
+{"timestamp_unix": 1795798289.0131717, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798289.1170864, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798289.7094579, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -78, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
+{"timestamp_unix": 1795798289.8384058, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -54, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798289.849401, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -54, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798289.9449093, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798290.192771, "address": "57:34:03:99:B9:32", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798290.5381806, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -92, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798290.548175, "address": "53:E6:59:82:A3:2A", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10052d1c28c950"}}}
+{"timestamp_unix": 1795798290.6561131, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798290.7720473, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798291.0124373, "address": "49:F7:D7:2A:F1:AB", "rssi_dbm": -90, "decoded": {"local_name": "JBL ", "manufacturer_data": {}}}
+{"timestamp_unix": 1795798291.0184336, "address": "57:34:03:99:B9:32", "rssi_dbm": -50, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798291.7210348, "address": "7C:0A:3F:83:E3:7F", "rssi_dbm": -86, "decoded": {"local_name": "[TV] Samsung AU7570 50 TV", "manufacturer_data": {"0x75": "42040101677c0a3f83e37f7e0a3f83e37e30d0a800000000"}}}
+{"timestamp_unix": 1795798291.832971, "address": "57:34:03:99:B9:32", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798291.8429654, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798292.6593409, "address": "57:34:03:99:B9:32", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798292.669335, "address": "57:34:03:99:B9:32", "rssi_dbm": -44, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1005331ceaaa74"}}}
+{"timestamp_unix": 1795798292.6793299, "address": "C0:39:37:AA:32:00", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {"0xd23": "000001c03937aa3200000000000000"}}}
+{"timestamp_unix": 1795798292.689323, "address": "C0:39:37:AA:32:00", "rssi_dbm": -92, "decoded": {"local_name": "GR-AC_10001_09_3200_SC", "manufacturer_data": {"0xd23": "000001c03937aa3200000000000000"}}}
+{"timestamp_unix": 1795798292.905201, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798293.0201356, "address": "53:E6:59:82:A3:2A", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10052d1c28c950"}}}
+{"timestamp_unix": 1795798293.3697011, "address": "4C:46:C9:E9:99:B0", "rssi_dbm": -56, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10054d1c06b94f"}}}
+{"timestamp_unix": 1795798293.4956846, "address": "42:04:5B:19:38:A2", "rssi_dbm": -84, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1006151e23bc686b"}}}
+{"timestamp_unix": 1795798293.5036795, "address": "42:04:5B:19:38:A2", "rssi_dbm": -84, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "1006151e23bc686b"}}}
+{"timestamp_unix": 1795798293.970276, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -78, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798294.0769043, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798295.257463, "address": "13:51:D7:0A:9A:20", "rssi_dbm": -76, "decoded": {"local_name": null, "manufacturer_data": {"0x6": "01092022b52cf4783ed688c3ee1ed10b2a817cebebaac6dff9fa9c"}}}
+{"timestamp_unix": 1795798295.503866, "address": "53:E6:59:82:A3:2A", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10052d1c28c950"}}}
+{"timestamp_unix": 1795798295.5108588, "address": "53:E6:59:82:A3:2A", "rssi_dbm": -90, "decoded": {"local_name": null, "manufacturer_data": {"0x4c": "10052d1c28c950"}}}

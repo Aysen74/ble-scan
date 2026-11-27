@@ -1,14 +1,14 @@
 {
-  "signature": "fbe1e4a0d965fa86",
-  "first_seen": 1795520910.7607188,
-  "last_seen": 1795521703.803763,
+  "signature": "21df36b3ef8edc44",
+  "first_seen": 1795797640.5733278,
+  "last_seen": 1795797646.5856092,
   "packet_count": 4,
   "unique_macs": 1,
   "mac_history": [
     {
-      "mac": "78:A7:C1:98:08:97",
-      "first_seen": 1795520910.7607188,
-      "last_seen": 1795521703.803763,
+      "mac": "C1:BB:12:EC:10:36",
+      "first_seen": 1795797640.5733278,
+      "last_seen": 1795797646.5856092,
       "count": 4
     }
   ],
@@ -17,24 +17,22 @@
   ],
   "stable_snapshot": {
     "local_name": null,
-    "tx_power_dbm": null,
-    "service_uuids": [],
     "manufacturer_data": {
-      "0x004C": "1608000933d4cc2b5acd"
+      "0x4c": "12020000"
     }
   },
   "interval_stats": {
     "count": 3,
-    "mean": 264.34768136342365,
-    "min": 2.0052895545959473,
-    "max": 787.0264160633087,
-    "std": 369.59058505204536
+    "mean": 2.004093805948893,
+    "min": 1.9922025203704834,
+    "max": 2.014288902282715,
+    "std": 0.009096147901110985
   },
   "rssi_stats": {
     "count": 4,
-    "mean": -88.0,
-    "min": -90.0,
-    "max": -86.0,
+    "mean": -50.0,
+    "min": -52.0,
+    "max": -48.0,
     "std": 1.4142135623730951
   },
   "physical_baseline": {
@@ -43,7 +41,7 @@
     "baseline_interval_samples": 3,
     "baseline_pathloss_samples": 0,
     "duplicates_suppressed": 0,
-    "baseline_rssi_mean": -88.0
+    "baseline_rssi_mean": -50.0
   },
   "mac_rotation_period_sec": null
 }

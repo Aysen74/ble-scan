@@ -1,0 +1,47 @@
+{
+  "signature": "b8585fa81fbcd063",
+  "first_seen": 1795797620.0057533,
+  "last_seen": 1795797654.988511,
+  "packet_count": 29,
+  "unique_macs": 1,
+  "mac_history": [
+    {
+      "mac": "45:E9:C9:EA:FA:91",
+      "first_seen": 1795797620.0057533,
+      "last_seen": 1795797654.988511,
+      "count": 29
+    }
+  ],
+  "address_types": [
+    "unknown"
+  ],
+  "stable_snapshot": {
+    "local_name": null,
+    "manufacturer_data": {
+      "0x4c": "10053f1c678a43"
+    }
+  },
+  "interval_stats": {
+    "count": 28,
+    "mean": 1.2493842073849268,
+    "min": 0.010000228881835938,
+    "max": 6.6142237186431885,
+    "std": 1.2800221294725256
+  },
+  "rssi_stats": {
+    "count": 29,
+    "mean": -50.96551724137931,
+    "min": -54.0,
+    "max": -48.0,
+    "std": 1.4499169683881818
+  },
+  "physical_baseline": {
+    "baseline_frozen": false,
+    "baseline_rssi_samples": 29,
+    "baseline_interval_samples": 28,
+    "baseline_pathloss_samples": 0,
+    "duplicates_suppressed": 20,
+    "baseline_rssi_mean": -50.97
+  },
+  "mac_rotation_period_sec": null
+}

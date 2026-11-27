@@ -1,14 +1,14 @@
 {
-  "signature": "4d444be80b054c6e",
-  "first_seen": 1795018107.8231115,
-  "last_seen": 1795018107.8231115,
+  "signature": "d6ef33942d8e491e",
+  "first_seen": 1795797616.6985407,
+  "last_seen": 1795797616.6985407,
   "packet_count": 1,
   "unique_macs": 1,
   "mac_history": [
     {
-      "mac": "E4:98:BB:B7:55:B4",
-      "first_seen": 1795018107.8231115,
-      "last_seen": 1795018107.8231115,
+      "mac": "5D:C6:F9:1E:F5:C7",
+      "first_seen": 1795797616.6985407,
+      "last_seen": 1795797616.6985407,
       "count": 1
     }
   ],
@@ -16,17 +16,17 @@
     "unknown"
   ],
   "stable_snapshot": {
-    "local_name": "LEDnetWF020008B755B4",
-    "tx_power_dbm": null,
-    "service_uuids": [],
-    "manufacturer_data": {}
+    "local_name": null,
+    "manufacturer_data": {
+      "0x4c": "160800ab8aa6c2c81346"
+    }
   },
   "interval_stats": {},
   "rssi_stats": {
     "count": 1,
-    "mean": -92.0,
-    "min": -92.0,
-    "max": -92.0,
+    "mean": -88.0,
+    "min": -88.0,
+    "max": -88.0,
     "std": 0.0
   },
   "physical_baseline": {
@@ -35,7 +35,7 @@
     "baseline_interval_samples": 0,
     "baseline_pathloss_samples": 0,
     "duplicates_suppressed": 0,
-    "baseline_rssi_mean": -92.0
+    "baseline_rssi_mean": -88.0
   },
   "mac_rotation_period_sec": null
 }
