@@ -13,7 +13,7 @@ import threading
 import time
 from pathlib import Path
 from tkinter import ttk
-
+from storage import db, persist
 import customtkinter as ctk
 
 # Добавляем корень проекта в sys.path. ВАЖНО: вставляем в НАЧАЛО списка,
@@ -402,7 +402,7 @@ class BLEMonitorApp(ctk.CTk):
                 f"{mean_rssi:.1f}",
                 vendor
             ))
-
+        persist.save_profiles(sorted_profiles)
     # ------------------------------------------------------------------
     # Вкладка 2: Алерты
     # ------------------------------------------------------------------
@@ -417,29 +417,21 @@ class BLEMonitorApp(ctk.CTk):
         btn_refresh.pack(pady=10)
 
     def _refresh_alerts(self):
-        """Загружает алерты из файла и показывает их."""
-        alert_path = ROOT / "data" / "alerts" / "alerts.jsonl"
-        if not alert_path.exists():
-            self.alert_list.delete("1.0", "end")
-            self.alert_list.insert("1.0", "Файл алертов не найден.\n")
-            return
-
         self.alert_list.delete("1.0", "end")
-        with open(alert_path, "r", encoding="utf-8") as f:
-            for line in f:
-                if line.strip():
-                    alert = json.loads(line)
-                    level = alert.get("level", "unknown")
-                    device = alert.get("device", "unknown")
-                    score = alert.get("score", 0)
-                    reasons = alert.get("reasons", [])
-
-                    icon = "🔴" if level == "alert" else "🟡"
-                    self.alert_list.insert("end", f"{icon} [{level.upper()}] {device} (балл: {score})\n")
-                    for r in reasons:
-                        self.alert_list.insert("end", f"   - {r.get('description', '')}\n")
-                    self.alert_list.insert("end", "\n")
-
+        db.init_db()
+        with db.connect() as c:
+            alerts = db.list_alerts(c)
+        if not alerts:
+            self.alert_list.insert("1.0", "Тревог нет.\n")
+            return
+        for a in alerts:
+            icon = "🔴" if a["level"] == "alert" else "🟡"
+            self.alert_list.insert("end",
+                f"{icon} [{a['level'].upper()}] {a['device']} "
+                f"балл {a['score']} — {a['status']}\n")
+            for r in json.loads(a["reasons_json"]):
+                self.alert_list.insert("end", f"   - {r['description']}\n")
+            self.alert_list.insert("end", "\n")
     # ------------------------------------------------------------------
     # Вкладка 3: Анализ файла
     # ------------------------------------------------------------------
